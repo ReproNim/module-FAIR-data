@@ -6,17 +6,17 @@
 kind: "lesson"
 
 # Overall title for pages.
-title: "Lesson template for Neurohackweek"
+title: "The Scientific Data Ecosystem"
 
 # Repository URL (without trailing slash).
-repo: https://github.com/neurohackweek/lesson-template
+repo: https://github.com/ReproNim/FAIR-Data
 
 # Root URL below username.github.io domain, with leading slash but no trailing slash.
 # For example, for 'https://neurohackweek.github.io/lesson-example', use '/lesson-example'.
 root: "/lesson-template"
 
 # Contact email address.
-email: arokem@uw.edu
+email: info@repronim.org
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -26,12 +26,12 @@ email: arokem@uw.edu
 is_production: true
 
 # Sites.
-nhw_site: "https://neurohackweek.github.io"
-nhw_github: "https://github.com/neurohackweek"
-swc_site: "https://software-carpentry.org"
-template_repo: "https://github.com/swcarpentry/styles"
-example_repo: "https://github.com/swcarpentry/lesson-example"
-example_site: "https://swcarpentry.github.com/lesson-example"
+repronim_site: "http://www.reproducibleimaging.org"
+repronim_github: "https://github.com/ReproNim"
+#swc_site: "https://software-carpentry.org"
+#template_repo: "https://github.com/swcarpentry/styles"
+#example_repo: "https://github.com/swcarpentry/lesson-example"
+#example_site: "https://swcarpentry.github.com/lesson-example"
 
 # Start time in minutes (540 is 09:00 am)
 start_time: 540
