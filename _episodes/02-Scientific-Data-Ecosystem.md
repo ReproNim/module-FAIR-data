@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the Web of Data"
+title: "The Scientific Data Ecosystem"
 teaching: Self Paced
 exercises: 0
 questions:
@@ -19,14 +19,14 @@ keypoints:
 This module...
 
 > #### Lessons
-> *Overview of the current ecosystem 
-> *Research objects and identifier systems
-> *Short history of open & linked data technology
-> *Benefits of Open Data with Examples
-> *Towards the FAIR principles
+> *Tools for data discovery 
+> *Managing your digital presence
+> *Data and terminology standards
+> *Supporting rigor and reproducibility
+> *The scientific data cloud
 {: .callout}
 
-### Overview of the current ecosystem
+### Tools for data discovery
 
 Lesson...
 
@@ -46,19 +46,19 @@ Lesson...
 >     TEXT2...
 {: .callout}
 
-### Research objects and identifier systems
+### Managing your digital presence
 
 Lesson...
 
-### Short history of open & linked data technology
+### Data and terminology standards
 
 Lesson...
 
-### Benefits of Open Data with Examples
+### Supporting rigor and reproducibility
 
 Lesson...
 
-### Towards the FAIR principles
+### The scientific data cloud
 
 Lesson...
 
