@@ -54,20 +54,6 @@ You can learn a lot without coding, however, some of the episodes and exercises 
 The ReproNim training events can only accommodate a limited number of participants.
 Nevertheless, we are committed to openness and we are committed to providing our
 materials in an open format, with liberal licenses, and through a publicly accessible website.
-There are time to time an article we want you to read and is behind paywall. If your institution or university does not give you access to it, let us know and we can provide a private copy for your personal use.
-
-
-~~~
-import nibabel as nib
-img = nib.load('my_file.nii.gz')
-affine = img.affine
-~~~
-{: .python}
-
-
-And this is our logo :
-
-No logo !
 
 <p><img src="https://github.com/ReproNim/artwork/blob/master/logo/repronim-logo3.2_nobg_256x256.png" alt="our great logo should be seen in html" /></p>
 
@@ -78,17 +64,17 @@ No logo !
 --->
 
 
-> ### Exercises and challenges (click on the arrow to the right to open)
->
->  Boxes with "challenges" will be interleaved with the lesson materials.
->    - This helps participants stay engaged.
->    - It surfaces questions that learners have as they go along.
->    - It breaks up the instruction, providing a bit of a diversion.
->    - It gives people a chance to engage in peer instruction, which is
->    - It is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
+### Exercises and challenges (click on the arrow to the right to open)
+
+Boxes with "challenges" will be interleaved with the lesson materials.
+  - This helps participants stay engaged.
+  - It surfaces questions that learners have as they go along.
+  - It breaks up the instruction, providing a bit of a diversion.
+  - It gives people a chance to engage in peer instruction, which is
+  - It is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
 {: .challenge}
 
 
-> ### Callouts
-> We sometimes will have box with a "callout", for extra material that is "optional".
+### Callouts
+We sometimes will have box with a "callout", for extra material that is "optional".
 {: .callout}
