@@ -28,10 +28,10 @@ is_production: true
 # Sites.
 repronim_site: "http://www.reproducibleimaging.org"
 repronim_github: "https://github.com/ReproNim"
-#swc_site: "https://software-carpentry.org"
-#template_repo: "https://github.com/swcarpentry/styles"
-#example_repo: "https://github.com/swcarpentry/lesson-example"
-#example_site: "https://swcarpentry.github.com/lesson-example"
+swc_site: "https://software-carpentry.org"
+template_repo: "https://github.com/swcarpentry/styles"
+example_repo: "https://github.com/swcarpentry/lesson-example"
+example_site: "https://swcarpentry.github.com/lesson-example"
 
 # Start time in minutes (540 is 09:00 am)
 start_time: 540
