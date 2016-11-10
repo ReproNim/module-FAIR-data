@@ -27,11 +27,11 @@ A ReproNim module is a set of "steps" or "episodes", in which we have gathered m
 
 ### Who is this module for? 
 
-The module is for you, if you are not a statistician or an applied mathematic researcher or student, is working with neuroimaging and you want to know about the statistical aspects of reproducibility.
+The module is for you, if you are a biomedical researcher or an informatics researcher or student, is working with neuroimaging (or not) and you want to know about reproducibility and data.
 
 ### How much time this should take me? 
 
-That really depends on your familiarity with statistical concepts and your capacity to play with a few formulas and some code. If you have no familiarity at all, this may take you a long time, for instance 5 to 7 full days. If you have good familiarity, some of the information will be already partially known and it may take you a full day to go in detail through this material.
+That really depends on your familiarity with concepts covered in the episodes and your capacity to write some code. If you have no familiarity at all, this may take you a long time, for instance 2 full weeks. If you have good familiarity, some of the information will be already partially known and it may take you a few days to go in detail through this material.
 
 ### What are the episodes for this module? 
 
@@ -56,25 +56,3 @@ Nevertheless, we are committed to openness and we are committed to providing our
 materials in an open format, with liberal licenses, and through a publicly accessible website.
 
 <p><img src="https://github.com/ReproNim/artwork/blob/master/logo/repronim-logo3.2_nobg_256x256.png" alt="our great logo should be seen in html" /></p>
-
-<!---
-<img src="https://github.com/ReproNim/artwork/blob/master/logo/repronim-logo3.2_nobg_256x256.png" alt="our great logo" >
-
-![an image]({{site.root}}/fig/repronim-logo3.svg)
---->
-
-
-### Exercises and challenges (click on the arrow to the right to open)
-
-Boxes with "challenges" will be interleaved with the lesson materials.
-  - This helps participants stay engaged.
-  - It surfaces questions that learners have as they go along.
-  - It breaks up the instruction, providing a bit of a diversion.
-  - It gives people a chance to engage in peer instruction, which is
-  - It is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
-{: .challenge}
-
-
-### Callouts
-We sometimes will have box with a "callout", for extra material that is "optional".
-{: .callout}
