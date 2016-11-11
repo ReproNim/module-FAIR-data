@@ -1,7 +1,7 @@
 ---
-title: "Data and the FAIR Principles"
- 
-exercises: Will be available via specific episodes. 
+title: "Introduction to the Module"
+teaching: Variable
+exercises: Variable 
 questions:
 - "Who is this modulde for ?"
 - "How can I get some help if I get stuck on solving for an exercise or a question ?"
@@ -56,4 +56,3 @@ The ReproNim training events can only accommodate a limited number of participan
 Nevertheless, we are committed to openness and we are committed to providing our
 materials in an open format, with liberal licenses, and through a publicly accessible website.
 
-<p><img src="https://github.com/ReproNim/artwork/blob/master/logo/repronim-logo3.2_nobg_256x256.png" alt="our great logo should be seen in html" /></p>
