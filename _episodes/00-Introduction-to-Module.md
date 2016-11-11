@@ -1,13 +1,14 @@
 ---
-title: "Introduction to the FAIR Data Module"
+title: "Introduction to Module 1: FAIR Data"
 teaching: Variable
 exercises: Variable
 
 questions:
-- "Who is this modulde for ?"
-- "How can I get some help if I get stuck on solving for an exercise or a question ?"
-- "How can I validate this module ?"
-- "When and where are the future ReproNim training workshops ?"
+- "What is the web of data?"
+- "What are FAIR data?"
+- "How do I search for data?
+- "How do I make my data FAIR?"
+- "How can I visualize the web of data"
 
 
 objectives:
