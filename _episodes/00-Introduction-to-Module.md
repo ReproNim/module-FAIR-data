@@ -1,5 +1,5 @@
 ---
-title: "Introduction to the Module"
+title: "Introduction to the FAIR Data Module"
 teaching: Variable
 exercises: Variable
 
