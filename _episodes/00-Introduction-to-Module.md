@@ -1,7 +1,8 @@
 ---
 title: "Introduction to the Module"
 teaching: Variable
-exercises: Variable 
+exercises: Variable
+
 questions:
 - "Who is this modulde for ?"
 - "How can I get some help if I get stuck on solving for an exercise or a question ?"
