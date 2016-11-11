@@ -35,7 +35,7 @@ That really depends on your familiarity with concepts covered in the episodes an
 
 ### What are the episodes for this module? 
 
-1. Introduction to the Web of Data
+1. [Introduction to the Web of Data]({{site.root}}/01-Web-of-Data)
 2. The Scientific Data Ecosystem
 3. Ethics
 4. Data Publishing
