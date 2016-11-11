@@ -23,9 +23,9 @@ keypoints:
 
 ---
 
-### Summary
+### Summary of Module 1
 
-This module covers basics of data and how to make data FAIR:  Findable, Accessible, Interoperable and Reusable (Wilkinson et al., 2015).  FAIR data is designed for sharing on the web, and integrating with other data sets.  Other topics include the web of data and data discovery using search engines designed for data.
+This module covers basics of data and how to make data FAIR:  Findable, Accessible, Interoperable and Reusable (Wilkinson et al., 2015).  FAIR data is designed for sharing on the web, and integrating with other data sets.  Making data FAIR requires attention to how data is structured, formatted and annotated, so we will go over various standards and best practices available for brain imaging data. Other topics include the web of data, linking data across the literature and databases, and data discovery using search engines designed for data.   
 
 ### What is a ReproNim module ? 
 
