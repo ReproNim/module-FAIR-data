@@ -36,12 +36,13 @@ That really depends on your familiarity with concepts covered in the episodes an
 ### What are the episodes for this module? 
 
 1. [Introduction to the Web of Data]({{site.root}}/01-Web-of-Data)
-2. The Scientific Data Ecosystem
-3. Ethics
-4. Data Publishing
-5. Your Laboratory Datastore
-6. Semantic Data Representations
-7. Developing Your Own Data Visualizations
+2. [The Scientific Data Ecosystem]({{site.root}}/02-Scientific-Data-Ecosystem)
+3. [Ethics]({{site.root}}/03-Ethics)
+4. [Data Publishing]({{site.root}}/04-Data-Publishing)
+5. [Your Laboratory Datastore]({{site.root}}/05-Your-Laboratory-Datastore)
+6. [Semantic Data Representations]({{site.root}}/06-Semantic-Data-Representations)
+7. [Developing Your Own Data Visualizations]({{site.root}}/07-Data-Visualizations)
+8. [Wrap-Up]({{site.root}}/08-wrap-up)
 
 [//]: # Will I be done in 3 days ? No.
 
