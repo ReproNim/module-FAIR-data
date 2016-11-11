@@ -23,6 +23,9 @@ keypoints:
 
 ---
 
+### Summary
+
+This module covers basics of data and how to make data FAIR:  Findable, Accessible, Interoperable and Reusable (Wilkinson et al., 2015).  FAIR data is designed for sharing on the web, and integrating with other data sets.  Other topics include the web of data and data discovery using search engines designed for data.
 
 ### What is a ReproNim module ? 
 
