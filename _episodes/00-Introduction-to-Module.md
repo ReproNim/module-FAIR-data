@@ -1,6 +1,6 @@
 ---
 title: "Data and the FAIR Principles"
-teaching: A FAIR bit of time.   
+ 
 exercises: Will be available via specific episodes. 
 questions:
 - "Who is this modulde for ?"
