@@ -23,21 +23,9 @@ keypoints:
 
 ---
 
-### Summary of Module 1
+### Summary of FAIR Data Module
 
 This module covers basics of data and how to make data FAIR:  Findable, Accessible, Interoperable and Reusable (Wilkinson et al., 2015).  FAIR data is designed for sharing on the web, and integrating with other data sets.  Making data FAIR requires attention to how data is structured, formatted and annotated, so we will go over various standards and best practices available for brain imaging data. Other topics include the web of data, linking data across the literature and databases, and data discovery using search engines designed for data.   
-
-### What is a ReproNim module ? 
-
-A ReproNim module is a set of "steps" or "episodes", in which we have gathered material on the web to guide you through the acquisition of a concept or tool or technique. You will take this journey and for each episode, we try to then ask you a few questions or do some exercise so that you will have an idea of how much you feel comfortable with the material to be acquired. We are not providing the answers directly on this web site so that this can be taken as a real course, but we will be teaching workshops with the answers and we will have links to the answers.
-
-### Who is this module for? 
-
-The module is for you, if you are a biomedical researcher or an informatics researcher or student, is working with neuroimaging (or not) and you want to know about reproducibility and data.
-
-### How much time this should take me? 
-
-That really depends on your familiarity with concepts covered in the episodes and your capacity to write some code. If you have no familiarity at all, this may take you a long time, for instance 2 full weeks. If you have good familiarity, some of the information will be already partially known and it may take you a few days to go in detail through this material.
 
 ### What are the episodes for this module? 
 
@@ -50,7 +38,17 @@ That really depends on your familiarity with concepts covered in the episodes an
 7. [Developing Your Own Data Visualizations]({{site.root}}/07-Data-Visualizations)
 8. [Wrap-Up]({{site.root}}/08-wrap-up)
 
-[//]: # Will I be done in 3 days ? No.
+### What is a ReproNim module ? 
+
+A ReproNim module is a set of "steps" or "episodes", in which we have gathered material on the web to guide you through the acquisition of a concept or tool or technique. You will take this journey and for each episode, we try to then ask you a few questions or do some exercise so that you will have an idea of how much you feel comfortable with the material to be acquired. We are not providing the answers directly on this web site so that this can be taken as a real course, but we will be teaching workshops with the answers and we will have links to the answers.
+
+### Who is this module for? 
+
+The module is for you, if you are a biomedical researcher or an informatics researcher or student, is working with neuroimaging (or not) and you want to know about reproducibility and data.
+
+### How much time this should take me? 
+
+That really depends on your familiarity with concepts covered in the episodes and your capacity to write some code. If you have no familiarity at all, this may take you a long time, for instance 2 full weeks. If you have good familiarity, some of the information will be already partially known and it may take you a few days to go in detail through this material.
 
 ### Do I need to code ?  What language ? 
 
