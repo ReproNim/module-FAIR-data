@@ -3,6 +3,7 @@ title: "Introduction to Module 1: FAIR Data"
 teaching: Variable
 exercises: Variable
 
+
 questions:
 - "What is the web of data?"
 - "What are FAIR data?"
