@@ -13,7 +13,7 @@ repo: https://github.com/ReproNim/FAIR-Data
 
 # Root URL below username.github.io domain, with leading slash but no trailing slash.
 # For example, for 'https://neurohackweek.github.io/lesson-example', use '/lesson-example'.
-root: "/lesson-template"
+root: "/FAIR-Data"
 
 # Contact email address.
 email: info@repronim.org
