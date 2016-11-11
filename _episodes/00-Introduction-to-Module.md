@@ -6,7 +6,7 @@ exercises: Variable
 questions:
 - "What is the web of data?"
 - "What are FAIR data?"
-- "How do I search for data?
+- "How do I search for data?"
 - "How do I make my data FAIR?"
 - "How can I visualize the web of data"
 
