@@ -8,7 +8,7 @@ questions:
 - "What are FAIR data?"
 - "How do I search for data?"
 - "How do I make my data FAIR?"
-- "How can I visualize the web of data"
+- "How can I visualize the web of data?"
 
 
 objectives:
