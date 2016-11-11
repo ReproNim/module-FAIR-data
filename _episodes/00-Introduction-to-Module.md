@@ -44,7 +44,7 @@ A ReproNim module is a set of "steps" or "episodes", in which we have gathered m
 
 ### Who is this module for? 
 
-The module is for you, if you are a biomedical researcher or an informatics researcher or student, is working with neuroimaging (or not) and you want to know about reproducibility and data.
+The module is for you, if you are a biomedical researcher, an informatics researcher or student, are working with neuroimaging (or not) and you want to know about reproducibility and data.
 
 ### How much time this should take me? 
 
