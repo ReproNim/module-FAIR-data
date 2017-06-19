@@ -1,15 +1,12 @@
 ---
-title: "Introduction to Module 1: FAIR Data"
-teaching: Variable
-exercises: Variable
-
-
+title: "Data and the FAIR Principles"
+teaching: A FAIR bit of time.
+exercises: Will be available via specific episodes.
 questions:
-- "What is the web of data?"
-- "What are FAIR data?"
-- "How do I search for data?"
-- "How do I make my data FAIR?"
-- "How can I visualize the web of data?"
+- "Who is this modulde for ?"
+- "How can I get some help if I get stuck on solving for an exercise or a question ?"
+- "How can I validate this module ?"
+- "When and where are the future ReproNim training workshops ?"
 
 
 objectives:
@@ -23,34 +20,32 @@ keypoints:
 
 ---
 
-### Summary of FAIR Data Module
 
-This module covers basics of data and how to make data FAIR:  Findable, Accessible, Interoperable and Reusable (Wilkinson et al., 2015).  FAIR data is designed for sharing on the web, and integrating with other data sets.  Making data FAIR requires attention to how data is structured, formatted and annotated, so we will go over various standards and best practices available for brain imaging data. Other topics include the web of data, linking data across the literature and databases, and data discovery using search engines designed for data.   
-
-### What are the episodes for this module? 
-
-1. [Introduction to the Web of Data]({{site.root}}/01-Web-of-Data)
-2. [The Scientific Data Ecosystem]({{site.root}}/02-Scientific-Data-Ecosystem)
-3. [Ethics]({{site.root}}/03-Ethics)
-4. [Data Publishing]({{site.root}}/04-Data-Publishing)
-5. [Your Laboratory Datastore]({{site.root}}/05-Your-Laboratory-Datastore)
-6. [Semantic Data Representations]({{site.root}}/06-Semantic-Data-Representations)
-7. [Developing Your Own Data Visualizations]({{site.root}}/07-Data-Visualizations)
-8. [Wrap-Up]({{site.root}}/08-wrap-up)
-
-### What is a ReproNim module ? 
+### What is a ReproNim module ?
 
 A ReproNim module is a set of "steps" or "episodes", in which we have gathered material on the web to guide you through the acquisition of a concept or tool or technique. You will take this journey and for each episode, we try to then ask you a few questions or do some exercise so that you will have an idea of how much you feel comfortable with the material to be acquired. We are not providing the answers directly on this web site so that this can be taken as a real course, but we will be teaching workshops with the answers and we will have links to the answers.
 
-### Who is this module for? 
+### Who is this module for?
 
-The module is for you, if you are a biomedical researcher, an informatics researcher or student, are working with neuroimaging (or not) and you want to know about reproducibility and data.
+The module is for you, if you are a biomedical researcher or an informatics researcher or student, is working with neuroimaging (or not) and you want to know about reproducibility and data.
 
-### How much time this should take me? 
+### How much time this should take me?
 
 That really depends on your familiarity with concepts covered in the episodes and your capacity to write some code. If you have no familiarity at all, this may take you a long time, for instance 2 full weeks. If you have good familiarity, some of the information will be already partially known and it may take you a few days to go in detail through this material.
 
-### Do I need to code ?  What language ? 
+### What are the episodes for this module?
+
+1. Introduction to the Web of Data
+2. The Scientific Data Ecosystem
+3. Ethics
+4. Data Publishing
+5. Your Laboratory Datastore
+6. Semantic Data Representations
+7. Developing Your Own Data Visualizations
+
+[//]: # Will I be done in 3 days ? No.
+
+### Do I need to code ?  What language ?
 
 You can learn a lot without coding, however, some of the episodes and exercises will require some coding. So, yes, you should code. We have (mostly) adopted python for the language, it may not be your first choice but we think some knowledge of python coding will help you anyways. We will try to help as much as possible by providing tutorials, examples, and links to installation instructions.
 
@@ -60,3 +55,4 @@ The ReproNim training events can only accommodate a limited number of participan
 Nevertheless, we are committed to openness and we are committed to providing our
 materials in an open format, with liberal licenses, and through a publicly accessible website.
 
+<p><img src="https://github.com/ReproNim/artwork/blob/master/logo/repronim-logo3.2_nobg_256x256.png" alt="our great logo should be seen in html" /></p>
