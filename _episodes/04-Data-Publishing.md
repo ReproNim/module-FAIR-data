@@ -12,15 +12,6 @@ keypoints:
 
 - This is in line with our overall goal of making science (including scientific training) more open.
 
-TOPIC
-> ** Introduction 
-> History of open mandatess and guidelines
-> Best practices for publishing data
-> **
-> *DataLad
-> *Data citation best practices
-{: .callout}
-
 ---
 
 ### Introduction
