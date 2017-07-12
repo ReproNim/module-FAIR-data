@@ -9,11 +9,11 @@ kind: "lesson"
 title: "Data and the FAIR Principles"
 
 # Repository URL (without trailing slash).
-repo: https://github.com/ReproNim/FAIR-Data
+repo: https://github.com/ReproNim/module-FAIR-Data
 
 # Root URL below username.github.io domain, with leading slash but no trailing slash.
 # For example, for 'https://neurohackweek.github.io/lesson-example', use '/lesson-example'.
-root: "/FAIR-Data"
+root: "/module-FAIR-Data"
 
 # Contact email address.
 email: info@repronim.org
@@ -28,6 +28,8 @@ is_production: true
 # Sites.
 repronim_site: "http://www.reproducibleimaging.org"
 repronim_github: "https://github.com/ReproNim"
+nhw_site: "https://neurohackweek.github.io"
+nhw_github: "https://github.com/neurohackweek"
 swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
