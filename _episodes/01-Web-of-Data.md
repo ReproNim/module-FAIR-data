@@ -1,9 +1,11 @@
 ---
 title: "Introduction to the Web of Data"
 teaching: Self Paced
-exercises: 3
+exercises: 2
 questions:
 - "What is a research object and how do I properly identify it?"
+- "What is linked open data?"
+- "What are the FAIR Data principles?"
 
 objectives:
 - "Understanding identifiers"
@@ -62,7 +64,7 @@ PIDs actually address both of these problems. The identifier is separated from t
 > In contrast, when you type in a globally unique identifer, e.g., a DOI, it should identify one and only one object on the web, in this case the article about the FAIR data principles. To see the difference, notice the list of search results when you type in the DOI for this article: 10.1038/sdata.2016.18.
 
 > As we will discuss in a later session, it is possible to turn a locally unique ID into a globally unique ID by adding additional features, e.g., namespaces before the ID, e.g., pubmed/.
-> 
+>
 >
 > **What is the difference between searching for an PID and resolving an PID?**
 >
