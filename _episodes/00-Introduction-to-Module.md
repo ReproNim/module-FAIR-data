@@ -16,7 +16,7 @@ objectives:
 
 
 keypoints:
-- "This module is in line with our overall goal of making science (including scientific training) more open by ensuring that data is made FAIR (Findabile, Accessible, Interoperable, and Reusable).""
+- "This module is in line with our overall goal of making science (including scientific training) more open by ensuring that data is made FAIR (Findabile, Accessible, Interoperable, and Reusable)."
 
 ---
 
