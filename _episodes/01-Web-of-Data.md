@@ -1,7 +1,7 @@
 ---
 title: "Introduction to the Web of Data"
 teaching: Self Paced
-exercises: 1
+exercises: 3
 questions:
 - "What is a research object and how do I properly identify it?"
 
