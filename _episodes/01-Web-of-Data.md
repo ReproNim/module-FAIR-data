@@ -1,16 +1,19 @@
 ---
 title: "Introduction to the Web of Data"
 teaching: Self Paced
-exercises: 0
+exercises: 1
 questions:
-- "Q1?"
-objectives:
-- "Objective 1"
-- "Objective 2"
-keypoints:
-- We want to use this template to provide lesson materials in an open and useful format.
+- "What is a research object and how do I properly identify it?"
 
-- This is in line with our overall goal of making science (including scientific training) more open.
+objectives:
+- "Understanding identifiers"
+- "History of open and linked data"
+- "Overview of the FAIR principles"
+
+keypoints:
+- "Understanding the FAIR Data principles"
+
+- "Understanding identification of FAIR data"
 
 ---
 
@@ -19,22 +22,14 @@ keypoints:
 This module provides an overview of strategies for making research outputs available through the web, with an emphasis on data.  It introduces concepts such persistent identifiers, linked data, the semantic web and the FAIR principles.  It is designed for those with little to no familiarity with these concepts. More technical discussions can be found in the reference materials.
 
 > #### Lessons
-> *Overview of the current ecosystem
-> *Research objects and identifier systems
-> *Short history of open & linked data technologies
-> *Benefits of open data with examples
-> *Towards the FAIR principles
+> - Overview of the current ecosystem
+> - Research objects and identifier systems
+> - Short history of open & linked data technologies
+> - Benefits of linked open data with examples
+> - Towards the FAIR principles
 {: .callout}
 
-### Overview of the current ecosystem
-
-Lesson...
-
 > #### References
-> Online courses:
->
->   - [Description](http://URL)
->
 > Additional materials:
 >
 >   - [Linked Data Guides and Tutorials](http://linkeddata.org/guides-and-tutorials)
@@ -45,8 +40,6 @@ Lesson...
 > Relevant Books:
 >
 >   - [Tom Heath and Christian Bizer (2011) Linked Data: Evolving the Web into a Global Data Space (1st edition). Synthesis Lectures on the Semantic Web: Theory and Technology, 1:1, 1-136. Morgan & Claypool.](http://linkeddatabook.com/editions/1.0/)
->     Text1...
->     TEXT2...
 {: .callout}
 
 ### Research objects and identifier systems
@@ -61,15 +54,21 @@ PIDs are distinct from locators like URL's in that they retrieve an object indep
 
 PIDs actually address both of these problems. The identifier is separated from the location so that it buffers against changes in location.  If a web document is moved to a new location, the new location is registered with the resolving system so that it now points to the same object in a new place.  If the same object is present in multiple locations, e.g., a scientific article can be found at the publisher's web site, in Pub Med Central and in platforms such as Mendeley,the DOI listed as part of the metadata is the same, so we know that it is the same article in different places.  It is important to note that these identifier systems, as will discussed below in the FAIR principles, are not magic.  Rather they are a social contract between the publisher of research objects and users that they will maintain the integrity of the resolution services.
 
-## Exercise: Understand the difference between a globally and locally unique identifier;  understand identifier resolution
---------------------------------------------------------------------------------------------------------------------------
-**What is the difference between a globally unique and locally unique identifier?** Consider the Pub Med database.  Pub Med assigns a unique idenfier, the PMID, to each article, e.g., PMID:26978244.  If you type in the identifier, [26978244](https://www.ncbi.nlm.nih.gov/pubmed/?term=26978244), into the Pub Med search box, you will get exactly one article, in this case on the FAIR data principles.  But now type that number into Google search. You will see the [the article about the FAIR data principles](https://www.ncbi.nlm.nih.gov/pubmed/26978244) but also lots of other things identifed by this number, e.g., [an image of a soccer player](https://www.dreamstime.com/stock-images-sk-rapid-vs-austria-wien-image26978244), [a house for sale](http://www.rightmove.co.uk/property-for-sale/property-26978244.html). In other words, divorced from a particular database, the identifer 26978244 is meaningless.
+> ## Exercise: Understand the difference between a globally and locally unique identifier (click on the arrow to the right to open)
+> **What is the difference between a globally unique and locally unique identifier?**
+>
+> Consider the Pub Med database.  Pub Med assigns a unique idenfier, the PMID, to each article, e.g., PMID:26978244.  If you type in the identifier, [26978244](https://www.ncbi.nlm.nih.gov/pubmed/?term=26978244), into the Pub Med search box, you will get exactly one article, in this case on the FAIR data principles.  But now type that number into Google search. You will see the [the article about the FAIR data principles](https://www.ncbi.nlm.nih.gov/pubmed/26978244) but also lots of other things identifed by this number, e.g., [an image of a soccer player](https://www.dreamstime.com/stock-images-sk-rapid-vs-austria-wien-image26978244), [a house for sale](http://www.rightmove.co.uk/property-for-sale/property-26978244.html). In other words, divorced from a particular database, the identifer 26978244 is meaningless.
+>
+> In contrast, when you type in a globally unique identifer, e.g., a DOI, it should identify one and only one object on the web, in this case the article about the FAIR data principles. To see the difference, notice the list of search results when you type in the DOI for this article: 10.1038/sdata.2016.18.
 
-In contrast, when you type in a globally unique identifer, e.g., a DOI, it should identify one and only one object on the web, in this case the article about the FAIR data principles. To see the difference, notice the list of search results when you type in the DOI for this article: 10.1038/sdata.2016.18.
+> As we will discuss in a later session, it is possible to turn a locally unique ID into a globally unique ID by adding additional features, e.g., namespaces before the ID, e.g., pubmed/.
+{: .challenge}
 
-As we will discuss in a later session, it is possible to turn a locally unique ID into a globally unique ID by adding additional features, e.g., namespaces before the ID, e.g., pubmed/.
-
-**What is the difference between searching for an PID and resolving an PID?** There is a difference between identifying an object and accessing it.  In the above exercise, when you type the DOI or PMID into a web search, it performs a search for that number just like it would for any search string.  Note that the list of results includes URl's that will take you to the article itself, e.g., https://www.nature.com/articles/sdata201618, or that contain references to the article, e.g., http://www.ontoforce.com/why-data-should-be-fair/.  A resolving service is more specific;  it is designed to resolve to the object that is being referenced. To see how a resolver works, copy  http://dx.doi.org/ into your browser followed by the DOI for the FAIR principles article 10.1038/sdata.2016.18. Note that it takes you to the web URL https://www.nature.com/articles/sdata201618 where the article is found.  This exercise also illustrates the difference between a PID and URL. If the URL for the article changes, Nature is obliged to notify the DOI maintaniner of the new location.
+> ## Exercise: Understand identifier resolution (click on the arrow to the right to open)
+> **What is the difference between searching for an PID and resolving an PID?**
+>
+> There is a difference between identifying an object and accessing it.  In the above exercise, when you type the DOI or PMID into a web search, it performs a search for that number just like it would for any search string.  Note that the list of results includes URl's that will take you to the article itself, e.g., https://www.nature.com/articles/sdata201618, or that contain references to the article, e.g., http://www.ontoforce.com/why-data-should-be-fair/.  A resolving service is more specific;  it is designed to resolve to the object that is being referenced. To see how a resolver works, copy  http://dx.doi.org/ into your browser followed by the DOI for the FAIR principles article 10.1038/sdata.2016.18. Note that it takes you to the web URL https://www.nature.com/articles/sdata201618 where the article is found.  This exercise also illustrates the difference between a PID and URL. If the URL for the article changes, Nature is obliged to notify the DOI maintaniner of the new location.
+{: .challenge}
 
 ### Short history of open & linked data technologies
 
@@ -101,7 +100,7 @@ An RDF triple comprises a subject, predicate and object, each identified by a UR
 
 Although the majority of biomedical data sources have been slow to adopt the [Open Linked Data protocol](http://lod-cloud.net/), a perusal of the Linked Open Data Cloud indicates that life sciences comprises a substantial part of the web of data.
 
-### Benefits of open data with examples
+### Benefits of linked open data with examples
 The benefits of Linked Open Data are encapuslated in the description of RDF above:
 * It facilitates data interchange on the web
 * It facilitates data integration across sources even when schemas are different
@@ -113,8 +112,7 @@ With Linked Open Data (LOD), this process becomes much easier.  If each of these
 
 Of course, this type of integration is only possible if developers of databases for the life sciences agree to the same set of URI's for the things they refer to, in this case, concepts like "cerebellum" and "disease" and the relationships that connect them. These concepts are typically assigned URI's when they are represented in data structures called ontologies, essentially, formal models of knowledge within a domain.  If each database develops its own identifier for Parkinson's Disease, then we are in the same boat as today:  we'd have to go to each database, find their data dictionaries and extract the particular identifier.  A single set of identifiers for entities in the life sciences is one of the goals of the [OBO Foundry:  Open Biological Ontologies](http://www.obofoundry.org/).  Where it has been achieved, e.g., the Gene Ontology in genomics, cross query of databases is highly facilitated.  But for other biological domains, e.g., neuroscience, consistent use of identifiers for concepts and relationships across databases has been less successful. For this reason, life sciences has also had to maintain a lot of cross-mapping between concepts in ontologies and other controlled vocabularies.
 
-## Exercise:  Working with Linked Data
-(I need to fill this in;  would be ideal if the example came from TRD2.
+[//]: # ( ## Exercise:  Working with Linked Data ) would be ideal if the example came from TRD2.
 
 ### Towards the FAIR principles
 
@@ -163,21 +161,12 @@ It is important to reiterate that, unlike LOD described in the previous section,
 
 The Linked Data protocol can be fully FAIR, if implemented properly, but as the authors discuss, these technologies may not be optimal for representing certain types of data. The authors also explicitly state that FAIR data need not be open data, although it is hard to see how data can be maximally reusable if they are not.  But even the most ardent open advocates recognize that all data may not be openly shared, particularly in the case where sharing would cause potential harm to either the research subjects or the researcher. Because FAIR is aspirational and flexible, it has enjoyed wide endorsement by the US National Institutes of Health, the G20, ELIXIR and H2020.
 
-## Exercise
-At the current time, the best way to ensure that your data are FAIR is to deposit them in a database that observes the FAIR principles.  How do you know if a repository observes FAIR?  In this exercise, you will visit some repositories and mark them against the principles above to create a FAIR scorecard.
-
-1. [NITRC-IR](http://www.nitrc.org/ir/)
-1. [OpenfMRI](https://openfmri.org/)
-1. [UniProt](http://www.uniprot.org/)
-1. [DataVerse](https://dataverse.harvard.edu/)
-
-> ## Exercises and challenges (click on the arrow to the right to open)
+> ## Exercise (click on the arrow to the right to open)
+>  At the current time, the best way to ensure that your data are FAIR is to deposit them in a database that observes the FAIR principles.  How do you know if a repository observes FAIR?  In this exercise, you will visit some repositories and mark them against the principles above to create a FAIR scorecard. To create your scorecard, create an Excel spreadsheet with the FAIR principles listed above in each row and list each repository as a column.
 >
->  Boxes with "challenges" can be interleaved with the lesson materials.
->  Consider adding a challenge every 15 minutes or so.
->    - This helps participants stay engaged.
->    - It surfaces questions that learners have as they go along.
->    - It breaks up the instruction, providing a bit of a diversion.
->    - It gives people a chance to engage in peer instruction, which is
->      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
+>  1. [NITRC-IR](http://www.nitrc.org/ir/)
+>  1. [OpenfMRI](https://openfmri.org/)
+>  1. [UniProt](http://www.uniprot.org/)
+>  1. [DataVerse](https://dataverse.harvard.edu/)
+>  1. A repository of your choosing
 {: .challenge}
