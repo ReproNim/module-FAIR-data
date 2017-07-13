@@ -3,10 +3,10 @@ title: "Data and the FAIR Principles"
 teaching: A FAIR bit of time.
 exercises: Specific exercises will be available via specific episodes.
 questions:
-- "Who is this modulde for ?"
-- "How can I get some help if I get stuck on solving for an exercise or a question ?"
-- "How can I validate this module ?"
-- "When and where are the future ReproNim training workshops ?"
+- "Who is this modulde for?"
+- "How can I get some help if I get stuck on solving for an exercise or a question?"
+- "How can I validate this module?"
+- "When and where are the future ReproNim training workshops?"
 
 
 objectives:
@@ -16,12 +16,12 @@ objectives:
 
 
 keypoints:
-- This module is in line with our overall goal of making science (including scientific training) more open by ensuring that data is made FAIR (Findabile, Accessible, Interoperable, and Reusable).
+- "This module is in line with our overall goal of making science (including scientific training) more open by ensuring that data is made FAIR (Findabile, Accessible, Interoperable, and Reusable).""
 
 ---
 
 
-### What is a ReproNim module ?
+### What is a ReproNim module?
 
 A ReproNim module is a set of "steps" or "episodes", in which we have gathered material on the web to guide you through the acquisition of a concept or tool or technique. You will take this journey and for each episode, we try to then ask you a few questions or do some exercise so that you will have an idea of how much you feel comfortable with the material to be acquired. We are not providing the answers directly on this web site so that this can be taken as a real course, but we will be teaching workshops with the answers and we will have links to the answers.
 
