@@ -1,7 +1,7 @@
 ---
 title: "Data and the FAIR Principles"
 teaching: A FAIR bit of time.
-exercises: Will be available via specific episodes.
+exercises: Specific exercises will be available via specific episodes.
 questions:
 - "Who is this modulde for ?"
 - "How can I get some help if I get stuck on solving for an exercise or a question ?"
@@ -16,7 +16,7 @@ objectives:
 
 
 keypoints:
-- This is in line with our overall goal of making science (including scientific training) more open.
+- This module is in line with our overall goal of making science (including scientific training) more open by ensuring that data is made FAIR (Findabile, Accessible, Interoperable, and Reusable).
 
 ---
 
@@ -37,11 +37,11 @@ That really depends on your familiarity with concepts covered in the episodes an
 
 1. Introduction to the Web of Data
 2. The Scientific Data Ecosystem
-3. Ethics
+3. * Ethics (Being Developed) *
 4. Data Publishing
 5. Your Laboratory Datastore
-6. Semantic Data Representations
-7. Developing Your Own Data Visualizations
+6. * Semantic Data Representations (Being Developed) *
+7. * Developing Your Own Data Visualizations (Being Developed) *
 
 [//]: # Will I be done in 3 days ? No.
 
