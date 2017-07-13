@@ -14,7 +14,6 @@ objectives:
 
 keypoints:
 - "Understanding the FAIR Data principles"
-
 - "Understanding identification of FAIR data"
 
 ---
