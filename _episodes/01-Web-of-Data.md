@@ -54,7 +54,7 @@ PIDs are distinct from locators like URL's in that they retrieve an object indep
 
 PIDs actually address both of these problems. The identifier is separated from the location so that it buffers against changes in location.  If a web document is moved to a new location, the new location is registered with the resolving system so that it now points to the same object in a new place.  If the same object is present in multiple locations, e.g., a scientific article can be found at the publisher's web site, in Pub Med Central and in platforms such as Mendeley,the DOI listed as part of the metadata is the same, so we know that it is the same article in different places.  It is important to note that these identifier systems, as will discussed below in the FAIR principles, are not magic.  Rather they are a social contract between the publisher of research objects and users that they will maintain the integrity of the resolution services.
 
-> ## Exercise: Understand the difference between a globally and locally unique identifier (click on the arrow to the right to open)
+> ## Exercise: Identifiers (click on the arrow to the right to open)
 > **What is the difference between a globally unique and locally unique identifier?**
 >
 > Consider the Pub Med database.  Pub Med assigns a unique idenfier, the PMID, to each article, e.g., PMID:26978244.  If you type in the identifier, [26978244](https://www.ncbi.nlm.nih.gov/pubmed/?term=26978244), into the Pub Med search box, you will get exactly one article, in this case on the FAIR data principles.  But now type that number into Google search. You will see the [the article about the FAIR data principles](https://www.ncbi.nlm.nih.gov/pubmed/26978244) but also lots of other things identifed by this number, e.g., [an image of a soccer player](https://www.dreamstime.com/stock-images-sk-rapid-vs-austria-wien-image26978244), [a house for sale](http://www.rightmove.co.uk/property-for-sale/property-26978244.html). In other words, divorced from a particular database, the identifer 26978244 is meaningless.
@@ -62,9 +62,8 @@ PIDs actually address both of these problems. The identifier is separated from t
 > In contrast, when you type in a globally unique identifer, e.g., a DOI, it should identify one and only one object on the web, in this case the article about the FAIR data principles. To see the difference, notice the list of search results when you type in the DOI for this article: 10.1038/sdata.2016.18.
 
 > As we will discuss in a later session, it is possible to turn a locally unique ID into a globally unique ID by adding additional features, e.g., namespaces before the ID, e.g., pubmed/.
-{: .challenge}
-
-> ## Exercise: Understand identifier resolution (click on the arrow to the right to open)
+> 
+>
 > **What is the difference between searching for an PID and resolving an PID?**
 >
 > There is a difference between identifying an object and accessing it.  In the above exercise, when you type the DOI or PMID into a web search, it performs a search for that number just like it would for any search string.  Note that the list of results includes URl's that will take you to the article itself, e.g., https://www.nature.com/articles/sdata201618, or that contain references to the article, e.g., http://www.ontoforce.com/why-data-should-be-fair/.  A resolving service is more specific;  it is designed to resolve to the object that is being referenced. To see how a resolver works, copy  http://dx.doi.org/ into your browser followed by the DOI for the FAIR principles article 10.1038/sdata.2016.18. Note that it takes you to the web URL https://www.nature.com/articles/sdata201618 where the article is found.  This exercise also illustrates the difference between a PID and URL. If the URL for the article changes, Nature is obliged to notify the DOI maintaniner of the new location.

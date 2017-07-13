@@ -37,7 +37,7 @@ That really depends on your familiarity with concepts covered in the episodes an
 
 1. Introduction to the Web of Data
 2. The Scientific Data Ecosystem
-3. * Ethics (Being Developed) *
+3. Ethics
 4. Data Publishing
 5. Your Laboratory Datastore
 6. * Semantic Data Representations (Being Developed) *
