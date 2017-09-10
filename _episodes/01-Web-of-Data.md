@@ -140,7 +140,7 @@ R1.1      |(meta)data are released with a clear and accessible data usage licens
 R1.2      |(meta)data are associated with detailed provenance
 R1.3      |(meta)data meet domain-relevant community standards
 
-A detailed explanation of each of these is included in the [Wilkinson et al.,2016](https://www.nature.com/articles/sdata201618) article, so we won't go into too much detail here.
+A detailed explanation of each of these is included in the [Wilkinson et al.,2016](https://www.nature.com/articles/sdata201618) article, and the Dutch Techcenter for Life Sciences has a set of excellent [tutorials](https://www.dtls.nl/fair-data/fair-principles-explained/), so we won't go into too much detail here.
 
 ## Findable
 Findable comprises two major attributes: the data set be identifed by a PID, so that it can be unambiguously located by a machine and the data be described by sufficient metadata so that it an be discovered by a human. F3 connects the identifier to this rich metadata so that a human can verify that the dataset is corretly resolved.
