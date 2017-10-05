@@ -53,11 +53,16 @@ The advantage of more specific repositories is that they can invest in much more
 Here are some things to consider:
 
 ***Before the data are collected:***
---Consult your library or someone else familiar with proper data management to ensure that your data will be properly managed throughout the lifecycle.  Both the US National Institutes of Health and the National Science Foundation require a data management plan as part of the proposal.  
---Make sure that you have requested adequate funds for proper management and curation of the data in order to make it open.
---Identify the repository that you will use to publish your data.  Make sure you have requested appropriate funds for archiving the data.  If the data are of reasonable size (a moving target), most repositories will archive the data for free.  But very large data sets, e.g., large imaging datasets, may have costs associated with long term archiving.  Consult with the repository before submitting your proposal to ensure adequate funds are available.
---Ensure you have the proper permissions to make your data open from your institution, colleagues and subjects.  See the [permissions worksheet](https://docs.google.com/document/d/1jLlWbzyTP9m3uMXPrAsrgEx5iXdPJvZ60cB7sDPGgxE/edit) for guidance.
---Consider not only the primary data, but any background or supplemental data, e.g., animal care records, and whether these can be shared.  You may be required to go through your university for this.
+
+  -Consult your library or someone else familiar with proper data management to ensure that your data will be properly managed throughout the lifecycle.  Both the US National Institutes of Health and the National Science Foundation require a data management plan as part of the proposal.  
+  
+  -Make sure that you have requested adequate funds for proper management and curation of the data in order to make it open.
+  
+  -Identify the repository that you will use to publish your data.  Make sure you have requested appropriate funds for archiving the data.  If the data are of reasonable size (a moving target), most repositories will archive the data for free.  But very large data sets, e.g., large imaging datasets, may have costs associated with long term archiving.  Consult with the repository before submitting your proposal to ensure adequate funds are available.
+
+  -Ensure you have the proper permissions to make your data open from your institution, colleagues and subjects.  See the [permissions worksheet](https://docs.google.com/document/d/1jLlWbzyTP9m3uMXPrAsrgEx5iXdPJvZ60cB7sDPGgxE/edit) for guidance.
+  
+  -Consider not only the primary data, but any background or supplemental data, e.g., animal care records, and whether these can be shared.  You may be required to go through your university for this.
 
 
 
