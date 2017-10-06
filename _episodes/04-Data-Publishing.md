@@ -64,9 +64,10 @@ Here are some things to consider:
   
   -  Consider not only the primary data, but any background or supplemental data, e.g., animal care records, and whether these can be shared.  You may be required to go through your university for this.
 
-
-
-
+***Tips for making data FAIR***
+  -  Well documented data are easier to understand  
+  -  Properly formatted data are easier to use in a variety of software, 
+  -  Data that are shared in established repositories with no or minimally restrictive licenses are easier for others to find and use. (from White et al., 2013)
 
 > *DataLad (todo:  Publishing data using Data Lad). 
 
@@ -92,34 +93,12 @@ A formal citation system assigns credit for the re-use of data, but also establi
 >   - [FORCE11 Decision trees for making data open, FAIR and citable ](https://www.force11.org/scholarly-commons/practice)
 >
 > Additional materials:
+>   -  [Honor, L. B., Haselgrove, C., Frazier, J. A., & Kennedy, D. N. (2016). Data Citation in Neuroimaging: Proposed Best Practices for Data Identification and Attribution. Frontiers in Neuroinformatics, 10, 34. doi:10.3389/fninf.2016.00034](http://journal.frontiersin.org/article/10.3389/fninf.2016.00034/full)
 >
+>   - [White EP, Baldridge E, Brym ZT, Locey KJ, McGlinn DJ, Supp SR. (2013) Nine simple ways to make it easier to (re)use your data. PeerJ PrePrints 1:e7v2 https://doi.org/10.7287/peerj.preprints.7v2](https://doi.org/10.7287/peerj.preprints.7v2)
 >   - [Description](http://URL)
->   - [Description](http://URL)
 >
-> Relevant Books:
->
->   - [Description](http://URL) Text1...
->     TEXT2...
 {: .callout}
-
-### Best Practices for publishing data
-
-Lesson...
-
-#### Publishing your data via community resources
-
-#### Publishing data with journals
-
-#### Publishing via local or cloud resources
-
-### DataLad
-
-Lesson...
-
-### Data citation best practices
-
-Lesson...
-
 
 > ## Exercises and challenges (click on the arrow to the right to open)
 >
