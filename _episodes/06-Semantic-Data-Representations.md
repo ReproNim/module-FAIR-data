@@ -29,22 +29,17 @@ This module...
 
 Lesson...
 
-> #### References
-> Online courses:
->
->   - [Description](http://URL)
->
+#### References
 > Additional materials:
 >
->   - [Description](http://URL)
->   - [Description](http://URL)
+>   - [Linked Data Guides and Tutorials](http://linkeddata.org/guides-and-tutorials)
+>   - [Linked Data: Tim Berners-Lee, 2006](https://www.w3.org/DesignIssues/LinkedData.html)
+>   - [W3C RDF Primer](https://www.w3.org/TR/rdf11-concepts/)
 >
 > Relevant Books:
 >
->   - [Description](http://URL) Text1...
->     TEXT2...
+>   - [Tom Heath and Christian Bizer (2011) Linked Data: Evolving the Web into a Global Data Space (1st edition). Synthesis Lectures on the Semantic Web: Theory and Technology, 1:1, 1-136. Morgan & Claypool.](http://linkeddatabook.com/editions/1.0/)
 {: .callout}
-
 ### RDF, SPARQL, Serialization of RDF
 
 Lesson...
