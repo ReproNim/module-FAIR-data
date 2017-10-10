@@ -22,13 +22,19 @@ Here we will focus specifically on a set of technologies collectively called the
 
 What does that mean exactly?  A more detailed and technical explanation is provided through the lessions below.  But in plain terms, the semantic web provides a protocol for publishing data on the web that allows machines to access them based on a set of relationships.  If fully realized, it allows bits of information about the same entity contained in different different databases, developed and maintained by different people, to be easily and automatically assembled without having to go through any manual mapping.  
 
-The basis of this ability is the encoding of data as a graph where each data point is connected to other data points through specific relationships. This graph structure contrasts with the usual tabular form that we use to store our data, e.g., in a relational database or spreadsheet.  Consider the following table:
+The basis of this ability is the encoding of data as a graph where each data point is connected to other data points through specific relationships. This graph structure contrasts with the usual tabular form that we use to store our data, e.g., in a relational database or spreadsheet.  Consider the following table for an fMRI study:
 
 | Subject   | Task   | Brain region |
 |----------|--------|--------------|
-| Male023  | SBLS   |  Hip |       |
+| Male023  | SBLS   |  Hip         |
 
-Let's say that there are two different databases in two different locations.  One has measured gene expression in different parts of the human brain while another has brain activation as a function of region and task.  
+This table indicates that a subject was given a task, in this case the Salthouse and Babcock Listening Span task (SBLS), and showed activation in the hippocampus (Hip).  To interpret this data, a human would need a key to the abbreviations, but would easily be able to supply the relationships among the different data points.  But while a computer can easily read across the row to know that SBLS and Hip go with Male023, the nature of the relationship among the variables is not machine readable.
+
+Let's say that there are two different databases in two different locations.  One, as in the table above, has brain activation as a function of region and task. The second has measured gene expression in different parts of the human brain.
+
+| Region   | Gene   | Expression level |
+|----------|--------|--------------|
+| hippocampus  | GRM1   |  High         |
 
 A reasonable question might be:  What brain regions express glutamate receptors and are active in memory tasks?
 
