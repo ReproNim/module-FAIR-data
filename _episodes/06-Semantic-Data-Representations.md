@@ -65,11 +65,11 @@ Now imagine the case where both databases are building their databases from the 
 > #### Lessons
 An excellent set of tutorials is available on the semantic web and associated technologies through [Linkeddatatools.com](http://www.linkeddatatools.com/index.php) and so we won't replicate them here. The tutorials cover:
 
-  -  Introduction To Graph Databases - gives a brief overview of the way in which the semantic web stores data.
-  -  RDF - A Quick Start - an introductory look at Resource Description Framework (RDF), the format the semantic web uses to store data in graph databases.
-  -  Semantic Modeling - introduces the key aspects of describing data with meaning, or semantics - and the advantages this can offer.
-  -  Introduction To RDFS & OWL - the key syntax the semantic web uses to encode semantic meaning into data.
-  -  Querying Semantic Data - how to query published semantic data using SPARQL protocol - the means to harness the immense discovery capabilities of the semantic web.
+  -  [Introduction To Graph Databases](http://www.linkeddatatools.com/introducing-rdf) - gives a brief overview of the way in which the semantic web stores data.
+  -  [RDF - A Quick Start](http://www.linkeddatatools.com/introducing-rdf-part-2) - an introductory look at Resource Description Framework (RDF), the format the semantic web uses to store data in graph databases.
+  -  [Semantic Modeling](http://www.linkeddatatools.com/semantic-modeling) - introduces the key aspects of describing data with meaning, or semantics - and the advantages this can offer.
+  -  [Introduction To RDFS & OWL](http://www.linkeddatatools.com/introducing-rdfs-owl) - the key syntax the semantic web uses to encode semantic meaning into data.
+  -  [Querying Semantic Data](http://www.linkeddatatools.com/querying-semantic-data) - how to query published semantic data using SPARQL protocol - the means to harness the immense discovery capabilities of the semantic web.
 
 > *Introduction to the semantic web and linked data 
 > *RDF, SPARQL, Serialization of RDF
