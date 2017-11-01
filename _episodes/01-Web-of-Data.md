@@ -168,5 +168,6 @@ The Linked Data protocol can be fully FAIR, if implemented properly, but as the 
 >  1. [OpenfMRI](https://openfmri.org/)
 >  1. [NeuroVault](http://www.neurovault.org/)
 >  1. [DataVerse](https://dataverse.harvard.edu/)
+>  1. [DataLad datasets](https://datasets.datalad.org/)
 >  1. A repository of your choosing
 {: .challenge}
