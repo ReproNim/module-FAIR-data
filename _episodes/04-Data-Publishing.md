@@ -4,6 +4,7 @@ teaching: Self Paced
 exercises: 1
 questions:
 - "Q1:  Am I ready to publish my data?"
+- "Q2:  What resources are available for your research data needs?"
 objectives:
 - "To learn what constitutes good stewardship of research data"
 - "To learn about resources that can be used to assist in the process of data stewardship and publication"
@@ -83,9 +84,6 @@ Publishing a data paper is one way to ensure that data can be cited.  But many j
 A formal citation system assigns credit for the re-use of data, but also establishes links to the evidence on which claims are based while providing the means for tracking and therefore measuring impact of data re-use. In our current publishing system, authors adopt a variety of styles for referencing data when they are re-used, from accession numbers, to URL’s, to citing a paper associated with the data set. Some journals set aside a special section on data use which contain lists of data sets and other resources. Unlike references to articles which have a standard format and tools and services to insert them and analyze citations, uncovering and tracking re-use of data typically involves using manual identification, text mining and natural language processing approaches, requiring full text access and considerable time and effort (Read et al., 2015).
 
 [Honor et al. (2016)](http://journal.frontiersin.org/article/10.3389/fninf.2016.00034/full) have published a recommendation for citing neuroimaging data sets:
-
-
-
 
 
 > #### References

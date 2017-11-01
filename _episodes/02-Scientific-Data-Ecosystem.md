@@ -2,15 +2,13 @@
 title: "The Scientific Data Ecosystem"
 teaching: Self Paced
 exercises: 0
-questions:
-- "Q1?"
-objectives:
-- "Objective 1"
-- "Objective 2"
-keypoints:
-- We want to use this template to provide lesson materials in an open and useful format.
 
-- This is in line with our overall goal of making science (including scientific training) more open.
+objectives:
+- "Provide an overview of the scientific data ecosystem"
+- "Learn about the specific sets of resources available for data in support of reproducible neuroimaging"
+
+keypoints:
+- The introduction will provide necessary background for the subsequent lessons as part of this training.
 
 ---
 
@@ -19,7 +17,7 @@ keypoints:
 This module...
 
 > #### Lessons
-> *Tools for data discovery 
+> *Tools for data discovery
 > *Managing your digital presence
 > *Data and terminology standards
 > *Supporting rigor and reproducibility
@@ -73,6 +71,3 @@ Lesson...
 >    - It gives people a chance to engage in peer instruction, which is
 >      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
 {: .challenge}
-
-
-

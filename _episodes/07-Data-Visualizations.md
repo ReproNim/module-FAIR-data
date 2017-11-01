@@ -3,14 +3,14 @@ title: "Developing Your Own Visualizations"
 teaching: Self Paced
 exercises: 0
 questions:
-- "Q1?"
-objectives:
-- "Objective 1"
-- "Objective 2"
-keypoints:
-- We want to use this template to provide lesson materials in an open and useful format.
 
-- This is in line with our overall goal of making science (including scientific training) more open.
+objectives:
+- "Learn about visualization environments available for data"
+
+keypoints:
+- Provide information on useful data visualization tools for the web of data.
+
+- This module is currently under development.
 
 ---
 
@@ -19,12 +19,12 @@ keypoints:
 This module...
 
 > #### Lessons
-> *Open source data visualization toolkits 
+> *Open source data visualization toolkits
 > *Introduction to data visualization tools
 > *Introduction to analytical tools
 {: .callout}
 
-### Open source data visualization toolkits 
+### Open source data visualization toolkits
 
 Lesson...
 
@@ -62,6 +62,3 @@ Lesson...
 >    - It gives people a chance to engage in peer instruction, which is
 >      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
 {: .challenge}
-
-
-

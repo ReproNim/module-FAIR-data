@@ -5,12 +5,12 @@ exercises: 0
 questions:
 - "Q1?"
 objectives:
-- "Objective 1"
-- "Objective 2"
+- "Learn about resources a laboratory can utilize (off the shelf) to be a good steward of their data"
+- "Learn about different databasing options if a custom solution is desired"
 keypoints:
-- We want to use this template to provide lesson materials in an open and useful format.
+- There are a number of tools, developed by the research community and also by companies, to assist in stewardship of laboratory data.
 
-- This is in line with our overall goal of making science (including scientific training) more open.
+- There are a number of options for developiong your own custom database solution.
 
 ---
 
@@ -19,7 +19,7 @@ keypoints:
 This module...
 
 > #### Lessons
-> *Open source community toolkits 
+> *Open source community toolkits
 > *Community data stores
 > **Overview of databases and query languages
 > **NoSQL databases
@@ -78,6 +78,3 @@ Lesson...
 >    - It gives people a chance to engage in peer instruction, which is
 >      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
 {: .challenge}
-
-
-

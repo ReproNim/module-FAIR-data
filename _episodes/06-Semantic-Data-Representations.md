@@ -5,22 +5,18 @@ exercises: 0
 questions:
 - "Q1?"
 objectives:
-- "Objective 1"
-- "Objective 2"
+- "To get an introduction to semantic representations of data and what resources are available to assist"
 keypoints:
-- We want to use this template to provide lesson materials in an open and useful format.
-
-- This is in line with our overall goal of making science (including scientific training) more open.
-
+- How to develop a semantic data representation for your data.
 ---
 
 ### Introduction
 
-We provided a very brief overview of some of the concepts involved in the semantic web and linked data in [Episode 01:  Web of Data](https://github.com/ReproNim/module-FAIR-data/blob/gh-pages/_episodes/01-Web-of-Data.md).  Please review this module if you need an introduction to concepts such as persistent identifiers, URI's, RDF and triples.  
+We provided a very brief overview of some of the concepts involved in the semantic web and linked data in [Episode 01:  Web of Data](https://github.com/ReproNim/module-FAIR-data/blob/gh-pages/_episodes/01-Web-of-Data.md).  Please review this module if you need an introduction to concepts such as persistent identifiers, URI's, RDF and triples.
 
 Here we will focus specifically on a set of technologies collectively called the [semantic web](http://www.linkeddatatools.com/semantic-web-basics).  The concept of the [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) was introduced by Tim Berners Lee to describe a web of data accessibly by machines through the web. The semantic web is often called web 3.0, "a way of linking data between systems or entities that allows for rich, self-describing interrelations of data available across the globe on the web" [Linked Data Tools](http://www.linkeddatatools.com/semantic-web-basics).
 
-What does that mean exactly?  A more detailed and technical explanation is provided through the lessions below.  But in plain terms, the semantic web provides a protocol for publishing data on the web that allows machines to access them based on a set of relationships.  If fully realized, it allows bits of information about the same entity contained in different different databases, developed and maintained by different people, to be easily and automatically assembled without having to go through any manual mapping.  
+What does that mean exactly?  A more detailed and technical explanation is provided through the lessions below.  But in plain terms, the semantic web provides a protocol for publishing data on the web that allows machines to access them based on a set of relationships.  If fully realized, it allows bits of information about the same entity contained in different different databases, developed and maintained by different people, to be easily and automatically assembled without having to go through any manual mapping.
 
 The basis of this ability is the encoding of data as a graph where each data point is connected to other data points through specific relationships. This graph structure contrasts with the usual tabular form that we use to store our data, e.g., in a relational database or spreadsheet.  Consider the following table for an fMRI study:
 
@@ -44,23 +40,23 @@ Those of you who are familiar with working across multiple databases (see episod
 
 In the world of the semantic web (which, in truth, some say is mythical), this query could be done by typing one or two (albeit very complicated) queries into your web browser, using a query language called [SPARQL](https://en.wikipedia.org/wiki/SPARQL). How is that possible?
 
-If both databases had used semantic web technologies to design their database, they would have included critical pieces of information that relate different aspects of the data in a way that a computer can "understand".  So in database 1, they may have statements such as:  
-  -  "hippocampus" "is part of" "brain", 
-  -  "hippocampus" "is activated by" "Salthouse and Babcock Listening Span task", 
+If both databases had used semantic web technologies to design their database, they would have included critical pieces of information that relate different aspects of the data in a way that a computer can "understand".  So in database 1, they may have statements such as:
+  -  "hippocampus" "is part of" "brain",
+  -  "hippocampus" "is activated by" "Salthouse and Babcock Listening Span task",
   -  "Salthouse and Babcock Listening Span task" "measures" "working memory";
   -  "Working memory" "is a type of" "memory"
-  
-Each of these statements is called a triple because it includes a subject, object and predicate. These concepts and relationships also each have their own URI (Uniform resource identifier) as a unique and persistent identifier (see [Episode 01:  Web of Data](https://github.com/ReproNim/module-FAIR-data/blob/gh-pages/_episodes/01-Web-of-Data.md)). So additional relationships can be added to each node, growing the graph from these basic triples. So you could ask for any brain region that is activated by tasks that measure memory. 
+
+Each of these statements is called a triple because it includes a subject, object and predicate. These concepts and relationships also each have their own URI (Uniform resource identifier) as a unique and persistent identifier (see [Episode 01:  Web of Data](https://github.com/ReproNim/module-FAIR-data/blob/gh-pages/_episodes/01-Web-of-Data.md)). So additional relationships can be added to each node, growing the graph from these basic triples. So you could ask for any brain region that is activated by tasks that measure memory.
 
 Similarly, database 2 might have encoded statements like:
-  -  "hippocampus" "is part of" "brain", 
-  -  "hippocampus" "expresses" "GRM1", 
-  -  "GRM1" "is a" "gene" 
-  -  "GRM1" "encodes" "glutamate receptor".  
- 
+  -  "hippocampus" "is part of" "brain",
+  -  "hippocampus" "expresses" "GRM1",
+  -  "GRM1" "is a" "gene"
+  -  "GRM1" "encodes" "glutamate receptor".
+
  In this data structure, it would be straightforward to compose a query to return any brain part that expresses a gene that encodes a glutamate receptor.  Again, each of these concepts and relationships have their own URI (Uniform resource identifier) as a unique and persistent identifier.
 
-Now imagine the case where both databases are building their databases from the same ontology, that is, a set of terms and the relationships among them, e.g., a set of brain regions, genes and tasks and a set of relations that connect them. Both databases therefore use the same URI's to identify elements in their databases.  The use of the same set of URI's, even in separate databases, allows someone to "mash up" the results between the two databases, by connecting results through a set of common URI's. So one would be able to compose a query across the two databases for the set of brain regions that both express glutamate receptors and are activated by working memory tasks, without the need for human intervention.  Because "hippocampus" has the same URI in both databases, there is no ambiguity in joining results from one database to another.  
+Now imagine the case where both databases are building their databases from the same ontology, that is, a set of terms and the relationships among them, e.g., a set of brain regions, genes and tasks and a set of relations that connect them. Both databases therefore use the same URI's to identify elements in their databases.  The use of the same set of URI's, even in separate databases, allows someone to "mash up" the results between the two databases, by connecting results through a set of common URI's. So one would be able to compose a query across the two databases for the set of brain regions that both express glutamate receptors and are activated by working memory tasks, without the need for human intervention.  Because "hippocampus" has the same URI in both databases, there is no ambiguity in joining results from one database to another.
 
 > #### Lessons
 An excellent set of tutorials is available on the semantic web and associated technologies through [Linkeddatatools.com](http://www.linkeddatatools.com/index.php) and so we won't replicate them here. The tutorials cover:
@@ -71,7 +67,7 @@ An excellent set of tutorials is available on the semantic web and associated te
   -  [Introduction To RDFS & OWL](http://www.linkeddatatools.com/introducing-rdfs-owl) - the key syntax the semantic web uses to encode semantic meaning into data.
   -  [Querying Semantic Data](http://www.linkeddatatools.com/querying-semantic-data) - how to query published semantic data using SPARQL protocol - the means to harness the immense discovery capabilities of the semantic web.
 
-> *Introduction to the semantic web and linked data 
+> *Introduction to the semantic web and linked data
 > *RDF, SPARQL, Serialization of RDF
 > *Ontologies
 > *Tools for semantic alignment of data
@@ -110,6 +106,3 @@ Lesson...
 >    - It gives people a chance to engage in peer instruction, which is
 >      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
 {: .challenge}
-
-
-
