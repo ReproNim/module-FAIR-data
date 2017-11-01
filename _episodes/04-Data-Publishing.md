@@ -3,8 +3,8 @@ title: "Data Publishing"
 teaching: Self Paced
 exercises: 1
 questions:
-- "Q1:  Am I ready to publish my data?"
-- "Q2:  What resources are available for your research data needs?"
+- "Am I ready to publish my data?"
+- "What resources are available for your research data needs?"
 objectives:
 - "To learn what constitutes good stewardship of research data"
 - "To learn about resources that can be used to assist in the process of data stewardship and publication"

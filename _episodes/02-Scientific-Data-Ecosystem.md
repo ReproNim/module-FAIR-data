@@ -7,6 +7,9 @@ objectives:
 - "Provide an overview of the scientific data ecosystem"
 - "Learn about the specific sets of resources available for data in support of reproducible neuroimaging"
 
+questions:
+- "What constitutes the scientific data ecosystem?"
+
 keypoints:
 - The introduction will provide necessary background for the subsequent lessons as part of this training.
 

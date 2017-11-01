@@ -3,7 +3,7 @@ title: "Developing Your Own Visualizations"
 teaching: Self Paced
 exercises: 0
 questions:
-
+- "What visualization tools are available to me?"
 objectives:
 - "Learn about visualization environments available for data"
 

@@ -3,7 +3,7 @@ title: "Your Labortory Datastore"
 teaching: Self Paced
 exercises: 0
 questions:
-- "Q1?"
+- "What resources are available for me to be a good steward of my laboratory's data"
 objectives:
 - "Learn about resources a laboratory can utilize (off the shelf) to be a good steward of their data"
 - "Learn about different databasing options if a custom solution is desired"

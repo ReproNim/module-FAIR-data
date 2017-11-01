@@ -3,7 +3,7 @@ title: "Semantic Data Representations"
 teaching: Self Paced
 exercises: 0
 questions:
-- "Q1?"
+- "How do I represent my data as linked data?"
 objectives:
 - "To get an introduction to semantic representations of data and what resources are available to assist"
 keypoints:
