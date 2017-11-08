@@ -1,5 +1,5 @@
 ---
-title: "Ethics"
+title: "Lesson 2: Ethics"
 teaching: Self Paced
 
 objectives:
@@ -14,7 +14,7 @@ keypoints:
 
 ### Introduction
 
-This module lesson links to externally available information to introduce the student to ethics surrounding privacy, data sharing, and algorithmic decision-making.
+This  lesson links to externally available information to introduce the student to ethics surrounding privacy, data sharing, and algorithmic decision-making.
 
 > #### References
 > ##### Online courses:

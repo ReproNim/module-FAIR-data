@@ -1,5 +1,5 @@
 ---
-title: "Data Publishing"
+title: "Lesson 3: Data Publishing"
 teaching: Self Paced
 exercises: 1
 questions:
@@ -16,9 +16,9 @@ keypoints:
 
 ### Introduction
 
-This module provides an overview of best practices in data publishing.  Note that we prefer the term "data publishing" to "data sharing" because the goal of this module is to make data available in public for third party inspection and re-use.
-> #### Lessons
-> *_History of open mandates and guidelines_
+This lesson provides an overview of best practices in data publishing.  Note that we prefer the term "data publishing" to "data sharing" because the goal of this module is to make data available in public for third party inspection and re-use.
+
+> #### History of open mandates and guidelines_
 
 Prior to computers and the internet, pubishing data routinely was really not possible beyond what we could publish in articles or books.  Consequently, a culture grew up around scholarly publishing where data were considered disposable after some specified regulatory period. Rather it was the hypotheses proposed, the experimental design, the analysis and the insights gained from collected data that were valued and preserved through our system of journals and books.
 
@@ -26,13 +26,13 @@ Almost all major funding agencies in the US and abroad are developing policies a
 
 Within Neuroimaging there exist a set of recommendations for best practices in data analysis and sharing. To o advance open science in neuroimaging the Organization for Human Brain Mapping's Committee on Best Practice in Data Analysis and Sharing (COBIDAS) has released a number of recommendations. (doi: https://doi.org/10.1101/054262). These guidelines for various aspects of a study are provided via tabular listings of items that will help plan, execute, report and finally share research in support of reproducible neuroimaging.
 
-> *Data sharing versus data publishing
+> #### Data sharing versus data publishing
 
 Towards these ends, we are seeing more and more calls for domains not just to establish a basic culture of human-centric sharing, i.e., “upon request”, but to move towards a more e-Science vision, where researchers conduct their research digitally and where data standards and programmatic interfaces make it easy for machines to access and ingest large amounts of data.  To achieve this goal requires that the products of research, including the data, be easily coupled to computational resources that can operate on them at scale, and that the provenance of these research products can be tracked as they transition between uses. It requires the ability to find, access and reuse digital artifacts using computational interfaces (API’s) with minimal restrictions.
 
 In other words, to take advantage of data, time, attention and resources must be devoted to publishing data and code, just as we spend time and energy publishing enduring narrative works to be understood and used by third parties, now and in the future.
 
-> *Best Practices for publishing data
+> #### Best Practices for publishing data
 
 We have already covered the FAIR principles in another module.  As a review, FAIR stands for Findable, Accessible, Interoperable and Re-usable.
 
@@ -70,10 +70,13 @@ Here are some things to consider:
   -  Well documented data are easier to understand
   -  Properly formatted data are easier to use in a variety of software,
   -  Data that are shared in established repositories with no or minimally restrictive licenses are easier for others to find and use. (from White et al., 2013)
+  - For more information on FAIR, please see the Web of Data lesson (http://www.reproducibleimaging.org/module-FAIR-data/01-Web-of-Data/)
 
-> *DataLad (todo:  Publishing data using Data Lad).
+> #### DataLad
 
-> *Credit for publishing data*
+DataLad builds on top of git-annex and extends it with an intuitive command-line interface. It enables users to operate on data using familiar concepts, such as files and directories, while transparently managing data access and authorization with underlying hosting providers.
+
+> #### Credit for publishing data
 
 Publishing data should be no different than publishing an article:  the creators should be credited and the authors and data formally cited when it is reused. This view is expressed in the [Joint Declaration of Data Citation principles](https://www.force11.org/group/joint-declaration-data-citation-principles-final), issued and endorsed by organizations around the globe.
 

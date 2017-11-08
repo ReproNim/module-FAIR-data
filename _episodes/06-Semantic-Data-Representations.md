@@ -1,5 +1,5 @@
 ---
-title: "Semantic Data Representations"
+title: "Lesson 5: Semantic Data Representations"
 teaching: Self Paced
 exercises: 0
 questions:
@@ -84,17 +84,6 @@ An excellent set of tutorials is available on the semantic web and associated te
 >
 >   - [Tom Heath and Christian Bizer (2011) Linked Data: Evolving the Web into a Global Data Space (1st edition). Synthesis Lectures on the Semantic Web: Theory and Technology, 1:1, 1-136. Morgan & Claypool.](http://linkeddatabook.com/editions/1.0/)
 {: .callout}
-### RDF, SPARQL, Serialization of RDF
-
-Lesson...
-
-### Ontologies
-
-Lesson...
-
-### Tools for semantic alignment of data
-
-Lesson...
 
 > ## Exercises and challenges (click on the arrow to the right to open)
 >
