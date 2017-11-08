@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<question type="truefalse">
+  <name>
+    <text>Persistent Identifiers</text>
+  </name>
+     <questiontext format="html">
+       <text>Is 26978244 a globally unique identifier for the PubMed article on the FAIR principles?</text>
+     </questiontext>
+
+   <answer fraction="100">
+      <text>Yes</text>
+      <feedback><text>Sorry. 26978244 is unique within PubMed but is not globally unique.  </text></feedback>
+   </answer>
+   <answer fraction="0">
+      <text>No</text>
+      <feedback><text>Correct!</text></feedback>
+   </answer>
+</question>
+
+<question type="shortanswer">
+  <name>
+    <text>Linked Data</text>
+  </name>
+     <questiontext format="html">
+       <text>What should be used to name (identify) things as per the linked data principles?</text>
+     </questiontext>
+
+ <answer fraction="100">
+     <text>Uniform Resource Identifier</text>
+     <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="100">
+     <text>URI</text>
+     <feedback><text>Correct!</text></feedback>
+ </answer>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>RDF triples</text>
+  </name>
+     <questiontext format="html">
+       <text>An RDF triple comprises a subject, predicate and object.  Which of the following would be a proper predicate?</text>
+     </questiontext>
+
+ <answer fraction="50">
+     <text>is a</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>name</text>
+    <feedback><text>A name is a potential subject and/or object</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>large</text>
+    <feedback><text>A size can be a potential subject and/or object</text></feedback>
+ </answer>
+ <answer fraction="50">
+     <text>authored</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>false</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>FAIR Data</text>
+  </name>
+     <questiontext format="html">
+       <text>What are some of the FAIR principles?</text>
+     </questiontext>
+
+     <answer fraction="0">
+         <text>Factual</text>
+        <feedback><text>F in FAIR stands for findable</text></feedback>
+     </answer>
+     <answer fraction="33">
+         <text>Accessible</text>
+        <feedback><text>Correct!</text></feedback>
+     </answer>
+     <answer fraction="33">
+         <text>Interoperable</text>
+        <feedback><text>Correct!</text></feedback>
+     </answer>
+     <answer fraction="34">
+         <text>Reusable</text>
+        <feedback><text>Correct!</text></feedback>
+     </answer>
+     <shuffleanswers>1</shuffleanswers>
+     <single>false</single>
+     <answernumbering>abc</answernumbering>
+</question>
+
+</quiz>
