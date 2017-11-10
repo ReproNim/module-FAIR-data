@@ -200,9 +200,9 @@ The Linked Data protocol can be fully FAIR, if implemented properly, but as the 
 >  1. A repository of your choosing
 {: .challenge}
 
-***FAIR Neuroimaging Data
+## FAIR Neuroimaging Data
 
-****[Brain Imaging Data Structure](http://bids.neuroimaging.io) (BIDS)
+### [Brain Imaging Data Structure](http://bids.neuroimaging.io) (BIDS)
 [BIDS](http://bids.neuroimaging.io) is a community developed file organization and naming scheme ([GitHub Repository](https://github.com/INCF/BIDS)) that makes it easier to publish data and share it with others in a consistent format. BIDS is being developed within the [International Neuroinformatics Coordinating Facility](http://incf.org) and in the collaboration with many scientists working in the neuroimaging field. The goal of BIDS is to define a powerful, flexible, and consistent framework for integrating the diverse types of experimental data routinely acquired in neuroimaging studies. Provisions are included in BIDS to accommodate these data types: subject-level variables (e.g. gender, age, handedness); longitudinal and multi-session studies; structural, anatomical imaging data; Resting state and task-based fMRI data; task event information; diffusion-weighted imaging data; field maps for correcting for B0 inhomogeneity; physiological monitoring output acquired during MRI experiments; behavioral data collected without MRI; and standardized metadata to describe the conditions and parameters of the experiment data.
 
 > ## Selected External Lesson Material
@@ -221,7 +221,7 @@ The Linked Data protocol can be fully FAIR, if implemented properly, but as the 
 >
 {: .challenge}
 
-****[Neuro Imaging Data Model](http://nidm.nidash.org) (NIDM)
+### [Neuro Imaging Data Model](http://nidm.nidash.org) (NIDM)
 [The Neuro Imaging Data Model](http://nidm.nidash.org) (NIDM) captures brain data, workflow, and results in a structured format using a derivative of the W3C PROV Data Model. Currently, results of fMRI analyses conducted in FSL and SPM can be stored using NIDM-Results. These results can be uploaded to NeuroVault for sharing with others.
 
 > ## Selected External Lesson Material
