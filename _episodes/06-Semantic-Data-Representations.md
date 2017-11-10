@@ -58,19 +58,15 @@ Similarly, database 2 might have encoded statements like:
 
 Now imagine the case where both databases are building their databases from the same ontology, that is, a set of terms and the relationships among them, e.g., a set of brain regions, genes and tasks and a set of relations that connect them. Both databases therefore use the same URI's to identify elements in their databases.  The use of the same set of URI's, even in separate databases, allows someone to "mash up" the results between the two databases, by connecting results through a set of common URI's. So one would be able to compose a query across the two databases for the set of brain regions that both express glutamate receptors and are activated by working memory tasks, without the need for human intervention.  Because "hippocampus" has the same URI in both databases, there is no ambiguity in joining results from one database to another.
 
-> #### Lessons
-An excellent set of tutorials is available on the semantic web and associated technologies through [Linkeddatatools.com](http://www.linkeddatatools.com/index.php) and so we won't replicate them here. The tutorials cover:
-
-  -  [Introduction To Graph Databases](http://www.linkeddatatools.com/introducing-rdf) - gives a brief overview of the way in which the semantic web stores data.
-  -  [RDF - A Quick Start](http://www.linkeddatatools.com/introducing-rdf-part-2) - an introductory look at Resource Description Framework (RDF), the format the semantic web uses to store data in graph databases.
-  -  [Semantic Modeling](http://www.linkeddatatools.com/semantic-modeling) - introduces the key aspects of describing data with meaning, or semantics - and the advantages this can offer.
-  -  [Introduction To RDFS & OWL](http://www.linkeddatatools.com/introducing-rdfs-owl) - the key syntax the semantic web uses to encode semantic meaning into data.
-  -  [Querying Semantic Data](http://www.linkeddatatools.com/querying-semantic-data) - how to query published semantic data using SPARQL protocol - the means to harness the immense discovery capabilities of the semantic web.
-
-> *Introduction to the semantic web and linked data
-> *RDF, SPARQL, Serialization of RDF
-> *Ontologies
-> *Tools for semantic alignment of data
+> ## Selected External Material
+> An excellent set of tutorials is available on the semantic web and associated technologies through [Linkeddatatools.com](http://www.linkeddatatools.com/index.php) and so we won't replicate them here. The tutorials cover:
+>
+> 1. [Introduction To Graph Databases](http://www.linkeddatatools.com/introducing-rdf) - gives a brief overview of the way in which the semantic web stores data.
+> 2. [RDF - A Quick Start](http://www.linkeddatatools.com/introducing-rdf-part-2) - an introductory look at Resource Description Framework (RDF), the format the semantic web uses to store data in graph databases.
+> 3. [Semantic Modeling](http://www.linkeddatatools.com/semantic-modeling) - introduces the key aspects of describing data with meaning, or semantics - and the advantages this can offer.
+> 4. [Introduction To RDFS & OWL](http://www.linkeddatatools.com/introducing-rdfs-owl) - the key syntax the semantic web uses to encode semantic meaning into data.
+> 5. [Querying Semantic Data](http://www.linkeddatatools.com/querying-semantic-data) - how to query published semantic data using SPARQL protocol - the means to harness the immense discovery capabilities of the semantic web.
+>
 {: .callout}
 
 #### References

@@ -21,6 +21,7 @@ This lesson provides information and training on a number of research data manag
 
 When managing data in your own laboratory, there are a number of options available to you.  First, there are a number of products (both academic and commercial) that allow you to manage your neuroimaging and associated data within their platform.
 
+> ## Selected External Material
 > #### Neuroimaging Data Platforms
 > ##### XNAT:
 >
@@ -54,6 +55,7 @@ When managing data in your own laboratory, there are a number of options availab
 
 While it is recommended that one try and utilize (and potentially contribute to) an existing platform there may still be a need to develop your own database system.  Databases and database technology are well represented in current online course offerings.  Therefor, we provide below a set of recommendations for free online courses that you can utilize.
 
+> ## Selected External Material
 > #### Introduction to Databases
 > ##### Databases Self Paced MOOC at Stanford Online:
 >
