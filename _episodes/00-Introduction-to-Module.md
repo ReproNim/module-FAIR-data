@@ -53,4 +53,4 @@ You can learn a lot without coding, however, some of the lessons and exercises w
 
 The ReproNim training events can only accommodate a limited number of participants.
 Nevertheless, we are committed to openness and we are committed to providing our
-materials in an open format, with liberal licenses, and through a publicly accessible website. You can also contribute to this training module - just fork us (https://github.com/ReproNim/module-FAIR-data)!
+materials in an open format, with liberal licenses, and through a publicly accessible website. You can also contribute to this training module - just [fork us on Gihub](https://github.com/ReproNim/module-FAIR-data)!

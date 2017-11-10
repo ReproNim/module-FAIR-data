@@ -81,11 +81,11 @@ The application of persistent identifiers in neuroimaging has been disdcussed in
 > ## Exercise: Identifier Resolution (click on the arrow to the right to open)
 > **Where can I resolve globally unique identifiers**
 >
-> The California Digital Library (CDL; http://www.cdlib.org) makes a number of tools available regarding persistent identifiers, including: registe4ring DOIs and ARKs and providing resolution services.  The N2T tool (Names to Things) is a resolving service that keeps names (identifiers) persistent, forwarding (resolving) them to the best known web addresses. For example, to resolve the PubMed identifier used in the above challenge - one would use the following call to N2T: http://n2t.net/pubmed:26978244
+> The California Digital Library ([CDL](http://www.cdlib.org)) makes a number of tools available regarding persistent identifiers, including: registe4ring DOIs and ARKs and providing resolution services.  The N2T tool (Names to Things) is a resolving service that keeps names (identifiers) persistent, forwarding (resolving) them to the best known web addresses. For example, to resolve the PubMed identifier used in the above challenge - one would use the following call to N2T: [http://n2t.net/pubmed:26978244](http://n2t.net/pubmed:26978244)
 >
-> The CDL is partnering with identifiers.org (http://identifiers.org) to maintain a registry of resolvable prefixes. In this exercise, please explore the registry at identifiers.org (https://www.ebi.ac.uk/miriam/main/collections) and choose a repository.  Browse the repository and extract some IDs and test the resolvers at N2T (http://n2t.net/) and identifiers.org (http://identifiers.org).
+> The CDL is partnering with [identifiers.org](http://identifiers.org) to maintain a registry of resolvable prefixes. In this exercise, please explore the [registry at identifiers.org](https://www.ebi.ac.uk/miriam/main/collections) and choose a repository.  Browse the repository and extract some IDs and test the resolvers at N2T [http://n2t.net/](http://n2t.net/) and identifiers.org [http://identifiers.org](http://identifiers.org).
 >
-> If your resource doesn't have its prefix registered, you can register it at: https://docs.google.com/forms/d/18MBLnItDYFOglVNbhNkISqHwB-pE1gN1YAqaARY9hDg/viewform?edit_requested=true
+> If your resource doesn't have its prefix registered, [you can register it via a Google form](https://docs.google.com/forms/d/18MBLnItDYFOglVNbhNkISqHwB-pE1gN1YAqaARY9hDg/viewform?edit_requested=true)
 >
 {: .challenge}
 
@@ -199,3 +199,32 @@ The Linked Data protocol can be fully FAIR, if implemented properly, but as the 
 >  1. [DataLad datasets](https://datasets.datalad.org/)
 >  1. A repository of your choosing
 {: .challenge}
+
+***FAIR Neuroimaging Data
+
+****[Brain Imaging Data Structure](http://bids.neuroimaging.io) (BIDS)
+[BIDS](http://bids.neuroimaging.io) is a community developed file organization and naming scheme ([GitHub Repository](https://github.com/INCF/BIDS)) that makes it easier to publish data and share it with others in a consistent format. BIDS is being developed within the [International Neuroinformatics Coordinating Facility](http://incf.org) and in the collaboration with many scientists working in the neuroimaging field. The goal of BIDS is to define a powerful, flexible, and consistent framework for integrating the diverse types of experimental data routinely acquired in neuroimaging studies. Provisions are included in BIDS to accommodate these data types: subject-level variables (e.g. gender, age, handedness); longitudinal and multi-session studies; structural, anatomical imaging data; Resting state and task-based fMRI data; task event information; diffusion-weighted imaging data; field maps for correcting for B0 inhomogeneity; physiological monitoring output acquired during MRI experiments; behavioral data collected without MRI; and standardized metadata to describe the conditions and parameters of the experiment data.
+
+> ## Selected External Lesson Material
+> 1. Krzysztof Gorgolewski's overview of BIDS and reproducibility: [Towards open and reproducible neuroscience in the age of big data](https://www.slideshare.net/chrisfilo1/towards-open-and-reproducible-neuroscience-in-the-age-of-big-data)
+> 2. The [BIDS Specification](http://bids.neuroimaging.io/bids_spec1.0.2.pdf)
+> 3. "The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments" (Gorgolewski et al 2016) [doi:10.1038/sdata.2016.44](http://n2t.net/doi:10.1038/sdata.2016.44)
+{: .callout}
+
+> ## Exercise: Create a BIDS Compliant Dataset(click on the arrow to the right to open)
+>
+> In this exercise you will work through the creation of a BIDS dataset using sample data originally obtained from [OpenFMRI](http://openfmri.org).  Please follow the following steps:
+>
+> 1. Download the [sample base dataset]({{site.root}}/data/ds000030_single_subj_base.zip) This sample data has been modified from the original OpenFMRI distribution for use in this exercise.
+> 2. Working with the BIDS material provided (above) and information from the data publication in Nature Scientific Data [](https://www.nature.com/articles/sdata2016110) and re-work the base dataset to conform to BIDS.
+> 3. As you work through this exercise - you can use the [BIDS validator](http://incf.github.io/bids-validator/) to check your progress (must use Google Chrome or Firefox).
+>
+{: .challenge}
+
+****[Neuro Imaging Data Model](http://nidm.nidash.org) (NIDM)
+[The Neuro Imaging Data Model](http://nidm.nidash.org) (NIDM) captures brain data, workflow, and results in a structured format using a derivative of the W3C PROV Data Model. Currently, results of fMRI analyses conducted in FSL and SPM can be stored using NIDM-Results. These results can be uploaded to NeuroVault for sharing with others.
+
+> ## Selected External Lesson Material
+> 1. [Getting Started with NIDM](http://nidm.nidash.org/getting-started/)
+> 2. [NIDM Specifications](http://nidm.nidash.org/specs/)
+{: .callout}
