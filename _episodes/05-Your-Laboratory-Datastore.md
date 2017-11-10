@@ -15,7 +15,7 @@ keypoints:
 
 ### Introduction
 
-This lesson provides information and training on a number of research data management platforms.  In addition, this lesson provides a number of courses covering an introduction to databases as well as specific course offerings for some popular database platforms. 
+This lesson provides information and training on a number of research data management platforms.  In addition, this lesson provides a number of courses covering an introduction to databases as well as specific course offerings for some popular database platforms.
 
 ### Introduction
 
@@ -48,6 +48,8 @@ When managing data in your own laboratory, there are a number of options availab
 >
 > **Documentation**: Documentation for FLyWheel can be found on their documentation page (https://docs.flywheel.io)
 >
+{: .callout}
+
 #### Build your Own...
 
 While it is recommended that one try and utilize (and potentially contribute to) an existing platform there may still be a need to develop your own database system.  Databases and database technology are well represented in current online course offerings.  Therefor, we provide below a set of recommendations for free online courses that you can utilize.
@@ -90,3 +92,4 @@ While it is recommended that one try and utilize (and potentially contribute to)
 >
 > **Abstract**: Neo4J provides a number of training materials online.
 >
+{: .callout}

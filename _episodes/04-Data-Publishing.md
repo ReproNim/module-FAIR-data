@@ -18,7 +18,7 @@ keypoints:
 
 This lesson provides an overview of best practices in data publishing.  Note that we prefer the term "data publishing" to "data sharing" because the goal of this module is to make data available in public for third party inspection and re-use.
 
-#### History of open mandates and guidelines_
+#### History of open mandates and guidelines
 
 Prior to computers and the internet, pubishing data routinely was really not possible beyond what we could publish in articles or books.  Consequently, a culture grew up around scholarly publishing where data were considered disposable after some specified regulatory period. Rather it was the hypotheses proposed, the experimental design, the analysis and the insights gained from collected data that were valued and preserved through our system of journals and books.
 
@@ -101,14 +101,3 @@ A formal citation system assigns credit for the re-use of data, but also establi
 >   - [Description](http://URL)
 >
 {: .callout}
-
-> ## Exercises and challenges (click on the arrow to the right to open)
->
->  Boxes with "challenges" can be interleaved with the lesson materials.
->  Consider adding a challenge every 15 minutes or so.
->    - This helps participants stay engaged.
->    - It surfaces questions that learners have as they go along.
->    - It breaks up the instruction, providing a bit of a diversion.
->    - It gives people a chance to engage in peer instruction, which is
->      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
-{: .challenge}

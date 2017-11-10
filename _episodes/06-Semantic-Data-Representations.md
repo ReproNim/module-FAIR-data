@@ -84,14 +84,3 @@ An excellent set of tutorials is available on the semantic web and associated te
 >
 >   - [Tom Heath and Christian Bizer (2011) Linked Data: Evolving the Web into a Global Data Space (1st edition). Synthesis Lectures on the Semantic Web: Theory and Technology, 1:1, 1-136. Morgan & Claypool.](http://linkeddatabook.com/editions/1.0/)
 {: .callout}
-
-> ## Exercises and challenges (click on the arrow to the right to open)
->
->  Boxes with "challenges" can be interleaved with the lesson materials.
->  Consider adding a challenge every 15 minutes or so.
->    - This helps participants stay engaged.
->    - It surfaces questions that learners have as they go along.
->    - It breaks up the instruction, providing a bit of a diversion.
->    - It gives people a chance to engage in peer instruction, which is
->      is [known to help learning](https://en.wikipedia.org/wiki/Peer_instruction).
-{: .challenge}
