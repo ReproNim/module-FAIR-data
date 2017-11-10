@@ -74,7 +74,7 @@ Here are some things to consider:
 
 #### DataLad
 
-DataLad builds on top of git-annex and extends it with an intuitive command-line interface. It enables users to operate on data using familiar concepts, such as files and directories, while transparently managing data access and authorization with underlying hosting providers.
+[DataLad](http://datalad.org) builds on top of [git-annex](http://git-annex.branchable.com/) and extends it with an intuitive command-line and Python interfaces. It enables users to operate on data using familiar concepts, such as files and directories, while transparently managing data access and authorization with underlying hosting providers.  Please see [Reproducible basics:VCS:DataLad](/module-reproducible-basics/02-vcs/#datalad) section for more information.
 
 #### Credit for publishing data
 
