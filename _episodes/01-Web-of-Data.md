@@ -237,3 +237,13 @@ The Linked Data protocol can be fully FAIR, if implemented properly, but as the 
 > 1. [Getting Started with NIDM](http://nidm.nidash.org/getting-started/)
 > 2. [NIDM Specifications](http://nidm.nidash.org/specs/)
 {: .callout}
+
+### Committee on Best Practice in Data Analysis and Sharing (COBIDAS) Recommendations
+To advance open science in neuroimaging the Organization for Human Brain Mapping created the Committee on Best Practice in Data Analysis and Sharing (COBIDAS), charged with creating a report that collects best practice recommendations from experts and the entire brain imaging community. The purpose of this work is to elaborate the principles of open and reproducible research for neuroimaging using Magnetic Resonance Imaging (MRI), and then distill these principles to specific research practices.
+
+> ## References
+> Best practices in data analysis and sharing in neuroimaging using MRI (Nichols, et al 2017)
+>
+> 1. [Nature Neuroscience](https://www.nature.com/articles/nn.4500)
+> 2. [bioRxiv](https://www.biorxiv.org/content/early/2016/07/10/054262)
+{: .callout}
