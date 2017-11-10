@@ -190,7 +190,7 @@ The Linked Data protocol can be fully FAIR, if implemented properly, but as the 
 {: .callout}
 
 > ## Exercise (click on the arrow to the right to open)
->  At the current time, the best way to ensure that your data are FAIR is to deposit them in a database that observes the FAIR principles.  How do you know if a repository observes FAIR?  In this exercise, you will visit some repositories and mark them against the principles above to create a FAIR scorecard. Here is a [Google spreadsheet](https://docs.google.com/spreadsheets/d/1FMrCRv67DB_cwKpJbpC6TosYCe9PNsUofqJu_TI1qBY/edit#gid=0) that you can use to record your evaluations.
+>  At the current time, the best way to ensure that your data are FAIR is to deposit them in a database that observes the FAIR principles.  How do you know if a repository observes FAIR?  In this exercise, you will visit some repositories and mark them against the principles above to create a FAIR scorecard.
 >
 >  1. [NITRC-IR](http://www.nitrc.org/ir/)
 >  1. [OpenfMRI](https://openfmri.org/)
@@ -198,6 +198,8 @@ The Linked Data protocol can be fully FAIR, if implemented properly, but as the 
 >  1. [DataVerse](https://dataverse.harvard.edu/)
 >  1. [DataLad datasets](https://datasets.datalad.org/)
 >  1. A repository of your choosing
+>
+> [Submit your answers via Google Form](https://goo.gl/forms/uCOC34qwJARtQzPT2)
 {: .challenge}
 
 ## FAIR Neuroimaging Data
