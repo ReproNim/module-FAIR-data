@@ -81,7 +81,7 @@ The application of persistent identifiers in neuroimaging has been disdcussed in
 > ## Exercise: Identifier Resolution (click on the arrow to the right to open)
 > **Where can I resolve globally unique identifiers**
 >
-> The California Digital Library ([CDL](http://www.cdlib.org)) makes a number of tools available regarding persistent identifiers, including: registe4ring DOIs and ARKs and providing resolution services.  The N2T tool (Names to Things) is a resolving service that keeps names (identifiers) persistent, forwarding (resolving) them to the best known web addresses. For example, to resolve the PubMed identifier used in the above challenge - one would use the following call to N2T: [http://n2t.net/pubmed:26978244](http://n2t.net/pubmed:26978244)
+> The California Digital Library ([CDL](http://www.cdlib.org)) makes a number of tools available regarding persistent identifiers, including: registering DOIs and ARKs and providing resolution services.  The N2T tool (Names to Things) is a resolving service that keeps names (identifiers) persistent, forwarding (resolving) them to the best known web addresses. For example, to resolve the PubMed identifier used in the above challenge - one would use the following call to N2T: [http://n2t.net/pubmed:26978244](http://n2t.net/pubmed:26978244)
 >
 > The CDL is partnering with [identifiers.org](http://identifiers.org) to maintain a registry of resolvable prefixes. In this exercise, please explore the [registry at identifiers.org](https://www.ebi.ac.uk/miriam/main/collections) and choose a repository.  Browse the repository and extract some IDs and test the resolvers at N2T [http://n2t.net/](http://n2t.net/) and identifiers.org [http://identifiers.org](http://identifiers.org).
 >
