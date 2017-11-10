@@ -9,7 +9,7 @@ objectives:
 - "Learn about different databasing options if a custom solution is desired"
 keypoints:
 - There are a number of tools, developed by the research community and also by companies, to assist in stewardship of laboratory data.
-- There are a number of options for devhttp://eloping your own custom database solution.
+- There are a number of options for developing your own custom database solution.
 
 ---
 
