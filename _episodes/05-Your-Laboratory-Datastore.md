@@ -1,5 +1,5 @@
 ---
-title: "Lesson 4: Your Labortory Datastore"
+title: "Lesson 4: Your Laboratory Datastore"
 teaching: Self Paced
 exercises: 0
 questions:
@@ -9,7 +9,7 @@ objectives:
 - "Learn about different databasing options if a custom solution is desired"
 keypoints:
 - There are a number of tools, developed by the research community and also by companies, to assist in stewardship of laboratory data.
-- There are a number of options for developiong your own custom database solution.
+- There are a number of options for devhttp://eloping your own custom database solution.
 
 ---
 
@@ -34,8 +34,8 @@ When managing data in your own laboratory, there are a number of options availab
 >
 > ##### LORIS:
 >
->  - [LORIS] (http://www.loris.ca)
->  - [LORIS GitHub] (https://github.com/aces/Loris)
+>  - [LORIS](http://www.loris.ca)
+>  - [LORIS GitHub](https://github.com/aces/Loris)
 >
 > **Overview**: The Longitudinal Online Research and Imaging System is a web-based data and project management software for neuroimaging research studies. It is an OPEN SOURCE framework for storing and processing behavioural, clinical, neuroimaging and genetic data. LORIS also makes it easy to manage large datasets acquired over time in a longitudinal study, or at different locations in a large multi-site study.
 >
@@ -43,11 +43,19 @@ When managing data in your own laboratory, there are a number of options availab
 >
 > ##### FlyWheel (Commercial):
 >
->  - [FlyWheel] (https://flywheel.io)
+>  - [FlyWheel](https://flywheel.io)
 >
 > **Overview**: Flywheel is a data management platform designed to ease the IT burden of the researcher by creating a collaborative environment for reproducible, computational science. Data can be uploaded directly from devices or can be manually uploaded into Flywheel. Once loaded, users can organize and search through data.
 >
-> **Documentation**: Documentation for FLyWheel can be found on their documentation page (https://docs.flywheel.io)
+> **Documentation**: Documentation for FlyWheel can be found on their documentation page (https://docs.flywheel.io)
+>
+> ##### DataLad:
+>
+>  - [DataLad](https://datalad.org)
+>
+> **Overview**: DataLad allows you to establish a collection of datasets while aggregating meta-data available in them, allowing for efficient search and management while keeping everything, including meta-data under git version control.  With [heudiconv](https://github.com/nipy/heudiconv) DataLad support, it becomes possible to establish automated conversion and complete version control of studies data and meta-data right from the fMRI scanner.
+>
+> **Documentation**: Documentation for DataLad can be found on their documentation page ([docs.datalad.org](https://docs.datalad.org)) with demos for establishing automated collection and conversion from [datalad.org/for/mri-data-management](http://datalad.org/for/mri-data-management).
 >
 {: .callout}
 
@@ -78,7 +86,7 @@ While it is recommended that one try and utilize (and potentially contribute to)
 > #### Lessons for Specific Database Platforms
 > ##### MariaDB:
 >
->   - [Learn MariaDB] (https://mariadb.org/learn/)
+>   - [Learn MariaDB](https://mariadb.org/learn/)
 >
 > ** Abstract**: MariaDB, the successor to MySQL, is an open-source relational database.  They provide a collection of online learning resources.
 >
