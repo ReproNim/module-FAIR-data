@@ -14,6 +14,7 @@ objectives:
 - "Provide researchers with the proper information on FAIR data so that they can be submitted to the specified workflows and executions environments in a reproducible fashion"
 
 keypoints:
+- "There are a number of practical guidelines and best practices for ensuring data supports reproducible research"
 - "This module is in line with our overall goal of making science (including scientific training) more open by ensuring that data is made FAIR (Findabile, Accessible, Interoperable, and Reusable)."
 
 ---
@@ -52,4 +53,4 @@ You can learn a lot without coding, however, some of the lessons and exercises w
 
 The ReproNim training events can only accommodate a limited number of participants.
 Nevertheless, we are committed to openness and we are committed to providing our
-materials in an open format, with liberal licenses, and through a publicly accessible website.
+materials in an open format, with liberal licenses, and through a publicly accessible website. You can also contribute to this training module - just fork us (https://github.com/ReproNim/module-FAIR-data)!

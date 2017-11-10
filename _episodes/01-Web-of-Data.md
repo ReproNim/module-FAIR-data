@@ -55,19 +55,38 @@ Although a URL can be thought of as a form of PID, PIDs are actually distinct fr
 
 PIDs actually address both of these problems. The identifier is separated from the location so that it buffers against changes in location.  If a web document is moved to a new location, the new location is registered with the resolving system so that it now points to the same object in a new place.  If the same object is present in multiple locations, e.g., a scientific article can be found at the publisher's web site, in Pub Med Central and in platforms such as Mendeley,the DOI listed as part of the metadata is the same, so we know that it is the same article in different places.  It is important to note that these identifier systems, as will discussed below in the FAIR principles, are not magic.  Rather they are a social contract between the publisher of research objects and users that they will maintain the integrity of the resolution services.
 
+#### Persistent Identifiers in Neuroimaging
+The application of persistent identifiers in neuroimaging has been disdcussed in the context of data citation: "Data Citation in Neuroimaging: Proposed Best Practices for Data Identification and Attribution" (Honor, Haselgrove, Frazier, Kennedy 2016; https://doi.org/10.3389/fninf.2016.00034).  This paper presents a prototype system to integrate Digital Object Identifiers (DOI) and a standardized metadata schema into a XNAT-based repository , allowing for identification of data at both the project and image level. This identification scheme allows any newly defined combination of images, aggregated from any number of projects, to be tagged with a new group-level DOI that automatically inherits the individual attributes and provenance information of its constituent parts. This allows for the consistent identification of data used as part of an analysis - a key aspect in ensuring analyses are reproducible.
+
+> ## Selected External Lesson Material
+> 1. An overview of persistent identifiers from the Australian National Data Service: [Unpacking Persistent Identifiers for Research](https://www.slideshare.net/AustralianNationalDataService/unpacking-persistent-identifiers-for-research)
+> 2. EUDAT's [Introduction to Persistent Identifiers](https://www.slideshare.net/EUDAT/introduction-to-persistent-identifiers)
+{: .callout}
+
 > ## Exercise: Identifiers (click on the arrow to the right to open)
 > **What is the difference between a globally unique and locally unique identifier?**
 >
 > Consider the Pub Med database.  Pub Med assigns a unique idenfier, the PMID, to each article, e.g., PMID:26978244.  If you type in the identifier, [26978244](https://www.ncbi.nlm.nih.gov/pubmed/?term=26978244), into the Pub Med search box, you will get exactly one article, in this case on the FAIR data principles.  But now type that number into Google search. You will see the [the article about the FAIR data principles](https://www.ncbi.nlm.nih.gov/pubmed/26978244) but also lots of other things identifed by this number, e.g., [an image of a soccer player](https://www.dreamstime.com/stock-images-sk-rapid-vs-austria-wien-image26978244), [a house for sale](http://www.rightmove.co.uk/property-for-sale/property-26978244.html). In other words, divorced from a particular database, the identifer 26978244 is meaningless.
 >
 > In contrast, when you type in a globally unique identifer, e.g., a DOI, it should identify one and only one object on the web, in this case the article about the FAIR data principles. To see the difference, notice the list of search results when you type in the DOI for this article: 10.1038/sdata.2016.18.
-
 > As we will discuss in a later session, it is possible to turn a locally unique ID into a globally unique ID by adding additional features, e.g., namespaces before the ID, e.g., pubmed/.
 >
 >
 > **What is the difference between searching for an PID and resolving an PID?**
 >
 > There is a difference between identifying an object and accessing it.  In the above exercise, when you type the DOI or PMID into a web search, it performs a search for that number just like it would for any search string.  Note that the list of results includes URl's that will take you to the article itself, e.g., https://www.nature.com/articles/sdata201618, or that contain references to the article, e.g., http://www.ontoforce.com/why-data-should-be-fair/.  A resolving service is more specific;  it is designed to resolve to the object that is being referenced. To see how a resolver works, copy  http://dx.doi.org/ into your browser followed by the DOI for the FAIR principles article 10.1038/sdata.2016.18. Note that it takes you to the web URL https://www.nature.com/articles/sdata201618 where the article is found.  This exercise also illustrates the difference between a PID and URL. If the URL for the article changes, Nature is obliged to notify the DOI maintaniner of the new location.
+>
+{: .challenge}
+
+> ## Exercise: Identifier Resolution (click on the arrow to the right to open)
+> **Where can I resolve globally unique identifiers**
+>
+> The California Digital Library (CDL; http://www.cdlib.org) makes a number of tools available regarding persistent identifiers, including: registe4ring DOIs and ARKs and providing resolution services.  The N2T tool (Names to Things) is a resolving service that keeps names (identifiers) persistent, forwarding (resolving) them to the best known web addresses. For example, to resolve the PubMed identifier used in the above challenge - one would use the following call to N2T: http://n2t.net/pubmed:26978244
+>
+> The CDL is partnering with identifiers.org (http://identifiers.org) to maintain a registry of resolvable prefixes. In this exercise, please explore the registry at identifiers.org (https://www.ebi.ac.uk/miriam/main/collections) and choose a repository.  Browse the repository and extract some IDs and test the resolvers at N2T (http://n2t.net/) and identifiers.org (http://identifiers.org).
+>
+> If your resource doesn't have its prefix registered, you can register it at: https://docs.google.com/forms/d/18MBLnItDYFOglVNbhNkISqHwB-pE1gN1YAqaARY9hDg/viewform?edit_requested=true
+>
 {: .challenge}
 
 ### Short history of open & linked data technologies
@@ -112,7 +131,11 @@ With Linked Open Data (LOD), this process becomes much easier.  If each of these
 
 Of course, this type of integration is only possible if developers of databases for the life sciences agree to the same set of URI's for the things they refer to, in this case, concepts like "cerebellum" and "disease" and the relationships that connect them. These concepts are typically assigned URI's when they are represented in data structures called ontologies, essentially, formal models of knowledge within a domain.  If each database develops its own identifier for Parkinson's Disease, then we are in the same boat as today:  we'd have to go to each database, find their data dictionaries and extract the particular identifier.  A single set of identifiers for entities in the life sciences is one of the goals of the [OBO Foundry:  Open Biological Ontologies](http://www.obofoundry.org/).  Where it has been achieved, e.g., the Gene Ontology in genomics, cross query of databases is highly facilitated.  But for other biological domains, e.g., neuroscience, consistent use of identifiers for concepts and relationships across databases has been less successful. For this reason, life sciences has also had to maintain a lot of cross-mapping between concepts in ontologies and other controlled vocabularies.
 
-[//]: # ( ## Exercise:  Working with Linked Data ) would be ideal if the example came from TRD2.
+> ## Selected External Lesson Material
+> 1. Open Data Support's (a project of DG CONNECT of the European Commission) [Linked Open Data Principles, Technologies and Examples](https://www.slideshare.net/OpenDataSupport/linked-open-data-principles-technologies-and-examples)
+> 2. The University of Southampton's Future Learn online course : [Introduction to Linked Data and the Semantic Web](https://www.futurelearn.com/courses/linked-data)
+> **Abstract**: Linked Data, a term coined by Sir Tim Berners-Lee, is a way of publishing data online so it can be easily interlinked and managed using semantic queries. This helps the exposure and interlinking of datasets so that data can be exchanged, reused and integrated. On this course you will learn the basics of Linked Data and the Semantic Web - exploring how this new Web of Data isn’t about creating a big collection of standalone datasets, but is instead about using a common format to ensure data is interrelated. (material from course website)
+{: .callout}
 
 ### Towards the FAIR principles
 
@@ -160,6 +183,11 @@ It is important to reiterate that, unlike LOD described in the previous section,
 * Equivalent to open
 
 The Linked Data protocol can be fully FAIR, if implemented properly, but as the authors discuss, these technologies may not be optimal for representing certain types of data. The authors also explicitly state that FAIR data need not be open data, although it is hard to see how data can be maximally reusable if they are not.  But even the most ardent open advocates recognize that all data may not be openly shared, particularly in the case where sharing would cause potential harm to either the research subjects or the researcher. Because FAIR is aspirational and flexible, it has enjoyed wide endorsement by the US National Institutes of Health, the G20, ELIXIR and H2020.
+
+> ## Selected External Lesson Material
+> 1. [FAIR Data Principles Explained](https://www.dtls.nl/fair-data/fair-principles-explained/) - a step by step guide through the FAIR data principles
+> 2. An overview on FAIR Data and FAIR Data stewardship, and the roadmap for FAIR Data solutions coordinated by the Dutch Techcentre for Life Sciences: [FAIR data overview](https://www.slideshare.net/lolavo/fair-data-overview)
+{: .callout}
 
 > ## Exercise (click on the arrow to the right to open)
 >  At the current time, the best way to ensure that your data are FAIR is to deposit them in a database that observes the FAIR principles.  How do you know if a repository observes FAIR?  In this exercise, you will visit some repositories and mark them against the principles above to create a FAIR scorecard. Here is a [Google spreadsheet](https://docs.google.com/spreadsheets/d/1FMrCRv67DB_cwKpJbpC6TosYCe9PNsUofqJu_TI1qBY/edit#gid=0) that you can use to record your evaluations.
