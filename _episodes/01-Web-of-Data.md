@@ -221,6 +221,13 @@ The Linked Data protocol can be fully FAIR, if implemented properly, but as the 
 >
 {: .challenge}
 
+> ## Exercise Solution (click on the arrow to the right to open)
+>
+> We have made the original BIDS dataset for the single subject available:
+>
+> 1. Download the [sample BIDS dataset]({{site.root}}/data/ds000030_single_subj.zip)
+{: .challenge}
+
 ### [Neuro Imaging Data Model](http://nidm.nidash.org) (NIDM)
 [The Neuro Imaging Data Model](http://nidm.nidash.org) (NIDM) captures brain data, workflow, and results in a structured format using a derivative of the W3C PROV Data Model. Currently, results of fMRI analyses conducted in FSL and SPM can be stored using NIDM-Results. These results can be uploaded to NeuroVault for sharing with others.
 
