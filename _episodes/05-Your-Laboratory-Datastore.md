@@ -34,8 +34,8 @@ When managing data in your own laboratory, there are a number of options availab
 >
 > ##### LORIS:
 >
->  - [LORIS] (http://www.loris.ca)
->  - [LORIS GitHub] (https://github.com/aces/Loris)
+>  - [LORIS](http://www.loris.ca)
+>  - [LORIS GitHub](https://github.com/aces/Loris)
 >
 > **Overview**: The Longitudinal Online Research and Imaging System is a web-based data and project management software for neuroimaging research studies. It is an OPEN SOURCE framework for storing and processing behavioural, clinical, neuroimaging and genetic data. LORIS also makes it easy to manage large datasets acquired over time in a longitudinal study, or at different locations in a large multi-site study.
 >
@@ -43,7 +43,7 @@ When managing data in your own laboratory, there are a number of options availab
 >
 > ##### FlyWheel (Commercial):
 >
->  - [FlyWheel] (https://flywheel.io)
+>  - [FlyWheel](https://flywheel.io)
 >
 > **Overview**: Flywheel is a data management platform designed to ease the IT burden of the researcher by creating a collaborative environment for reproducible, computational science. Data can be uploaded directly from devices or can be manually uploaded into Flywheel. Once loaded, users can organize and search through data.
 >
@@ -78,7 +78,7 @@ While it is recommended that one try and utilize (and potentially contribute to)
 > #### Lessons for Specific Database Platforms
 > ##### MariaDB:
 >
->   - [Learn MariaDB] (https://mariadb.org/learn/)
+>   - [Learn MariaDB](https://mariadb.org/learn/)
 >
 > ** Abstract**: MariaDB, the successor to MySQL, is an open-source relational database.  They provide a collection of online learning resources.
 >
