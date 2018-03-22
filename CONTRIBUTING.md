@@ -62,7 +62,8 @@ In brief:
 
 You can [reach us by email][contact].
 
-[contact]: David.Kennedy@umassmed.edu
+[rn-site]: https://www.reproducibleimaging.org/
+[contact]: mailto:David.Kennedy@umassmed.edu
 [github]: http://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
