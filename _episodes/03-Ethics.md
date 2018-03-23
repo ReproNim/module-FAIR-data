@@ -19,7 +19,7 @@ This  lesson links to externally available information to introduce the student 
 > ## Selected External Lesson Material
 > ### Online courses:
 >
->   - [edX: Data Science Ethics](https://www.edx.org/course/data-science-ethics-michiganx-ds101x-1#!)
+>   - [edX: Data Science Ethics](https://www.edx.org/course/data-science-ethics)
 >
 > **Abstract**: As patients, we care about the privacy of our medical record; but as patients, we also wish to benefit from the analysis of data in medical records. As citizens, we want a fair trial before being punished for a crime; but as citizens, we want to stop terrorists before they attack us. As decision-makers, we value the advice we get from data-driven algorithms; but as decision-makers, we also worry about unintended bias. Many data scientists learn the tools of the trade and get down to work right away, without appreciating the possible consequences of their work. This course focused on ethics specifically related to data science will provide you with the framework to analyze these concerns. This framework is based on ethics, which are shared values that help differentiate right from wrong. Ethics are not law, but they are usually the basis for laws. Everyone, including data scientists, will benefit from this course. No previous knowledge is needed.
 >
