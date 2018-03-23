@@ -98,6 +98,5 @@ A formal citation system assigns credit for the re-use of data, but also establi
 >   -  [Honor, L. B., Haselgrove, C., Frazier, J. A., & Kennedy, D. N. (2016). Data Citation in Neuroimaging: Proposed Best Practices for Data Identification and Attribution. Frontiers in Neuroinformatics, 10, 34. doi:10.3389/fninf.2016.00034](http://journal.frontiersin.org/article/10.3389/fninf.2016.00034/full)
 >
 >   - [White EP, Baldridge E, Brym ZT, Locey KJ, McGlinn DJ, Supp SR. (2013) Nine simple ways to make it easier to (re)use your data. PeerJ PrePrints 1:e7v2 https://doi.org/10.7287/peerj.preprints.7v2](https://doi.org/10.7287/peerj.preprints.7v2)
->   - [Description](http://URL)
 >
 {: .callout}
