@@ -24,7 +24,7 @@ Prior to computers and the internet, publishing data routinely was really not po
 
 Almost all major funding agencies in the US and abroad are developing policies around open sharing of research data and other research products. These policies have been put into place to promote the integrity of scientific research through greater transparency in light of recent concerns about scientific reproducibility across several fields. These policies are also driven by the promises of new insights to be gained from increased human- and machine-based access to research outputs.
 
-Within Neuroimaging there exist a set of recommendations for best practices in data analysis and sharing. To o advance open science in neuroimaging the Organization for Human Brain Mapping's Committee on Best Practice in Data Analysis and Sharing (COBIDAS) has released a number of recommendations. (doi: https://doi.org/10.1101/054262). These guidelines for various aspects of a study are provided via tabular listings of items that will help plan, execute, report and finally share research in support of reproducible neuroimaging.
+Within Neuroimaging there exist a set of recommendations for best practices in data analysis and sharing. To o advance open science in neuroimaging the Organization for Human Brain Mapping's Committee on Best Practice in Data Analysis and Sharing (COBIDAS) has released a number of recommendations. ([doi:10.1101/054262](https://doi.org/10.1101/054262)). These guidelines for various aspects of a study are provided via tabular listings of items that will help plan, execute, report and finally share research in support of reproducible neuroimaging.
 
 #### Data sharing versus data publishing
 
@@ -97,6 +97,6 @@ A formal citation system assigns credit for the re-use of data, but also establi
 > Additional materials:
 >   -  [Honor, L. B., Haselgrove, C., Frazier, J. A., & Kennedy, D. N. (2016). Data Citation in Neuroimaging: Proposed Best Practices for Data Identification and Attribution. Frontiers in Neuroinformatics, 10, 34. doi:10.3389/fninf.2016.00034](http://journal.frontiersin.org/article/10.3389/fninf.2016.00034/full)
 >
->   - [White EP, Baldridge E, Brym ZT, Locey KJ, McGlinn DJ, Supp SR. (2013) Nine simple ways to make it easier to (re)use your data. PeerJ PrePrints 1:e7v2 https://doi.org/10.7287/peerj.preprints.7v2](https://doi.org/10.7287/peerj.preprints.7v2)
+>   - [White EP, Baldridge E, Brym ZT, Locey KJ, McGlinn DJ, Supp SR. (2013) Nine simple ways to make it easier to (re)use your data. PeerJ PrePrints 1:e7v2 doi:10.7287/peerj.preprints.7v2](https://doi.org/10.7287/peerj.preprints.7v2)
 >
 {: .callout}
