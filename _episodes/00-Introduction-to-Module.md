@@ -26,7 +26,7 @@ A ReproNim module is a set of steps or "lessons", in which we have gathered mate
 
 ### Who is this module for?
 
-The module is for you, if you are a biomedical researcher or an informatics researcher or student, is working with neuroimaging (or not) and you want to know about reproducibility and data. To ensure data supports reproducible research,  the FAIR principles were issued through [FORCE11](http://force11.org): the Future of Research Communications and e-Scholarship. The FAIR principles put forth characteristics that contemporary data resources, tools, vocabularies and infrastructures should exhibit to ensure understandability, assist discovery and reuse by third-parties. [Wilkinson et al.,2016](https://www.nature.com/articles/sdata201618).  FAIR stands for:  Findable, Accessible, Interoperable and Re-usable.
+The module is for you, if you are a biomedical researcher or an informatics researcher or student, who is working with neuroimaging (or not) and you want to know about reproducibility and data. To ensure data supports reproducible research,  the FAIR principles were issued through [FORCE11](http://force11.org): the Future of Research Communications and e-Scholarship. The FAIR principles put forth characteristics that contemporary data resources, tools, vocabularies and infrastructures should exhibit to ensure understandability, assist discovery and reuse by third-parties. [Wilkinson et al.,2016](https://www.nature.com/articles/sdata201618).  FAIR stands for:  Findable, Accessible, Interoperable and Re-usable.
 
 ### What will you learn
 
@@ -45,7 +45,7 @@ That really depends on your familiarity with concepts covered in the episodes an
 5. [Lesson 5.]({{site.root}}/06-Semantic-Data-Representations) How to setup a testing framework to revalidate analyses as data and
 software change
 
-### Do I need to code ?  What language ?
+### Do I need to code?  What language?
 
 You can learn a lot without coding, however, some of the lessons and exercises will require some coding. So, yes, you should code. We have (mostly) adopted python for the language, it may not be your first choice but we think some knowledge of python coding will help you anyways. We will try to help as much as possible by providing tutorials, examples, and links to installation instructions.
 
@@ -53,4 +53,4 @@ You can learn a lot without coding, however, some of the lessons and exercises w
 
 The ReproNim training events can only accommodate a limited number of participants.
 Nevertheless, we are committed to openness and we are committed to providing our
-materials in an open format, with liberal licenses, and through a publicly accessible website. You can also contribute to this training module - just [fork us on Gihub](https://github.com/ReproNim/module-FAIR-data)!
+materials in an open format, with liberal licenses, and through a publicly accessible website. You can also contribute to this training module - just [fork us on GitHub](https://github.com/ReproNim/module-FAIR-data)!
