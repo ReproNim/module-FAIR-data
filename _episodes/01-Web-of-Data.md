@@ -215,11 +215,11 @@ The Linked Data protocol can be fully FAIR, if implemented properly, but as the 
 > 3. "The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments" (Gorgolewski et al 2016) [doi:10.1038/sdata.2016.44](http://n2t.net/doi:10.1038/sdata.2016.44)
 {: .callout}
 
-> ## Exercise: Create a BIDS Compliant Dataset(click on the arrow to the right to open)
+> ## Exercise: Create a BIDS Compliant Dataset (click on the arrow to the right to open)
 >
 > In this exercise you will work through the creation of a BIDS dataset using sample data originally obtained from [OpenFMRI](http://openfmri.org).  Please follow the following steps:
 >
-> 1. Download the [sample base dataset]({{site.root}}/data/ds000030_single_subj_base.zip) This sample data has been modified from the original OpenFMRI distribution for use in this exercise.
+> 1. Download the [sample base dataset]({{site.root}}/data/ds000030_single_subj_base.zip). This sample data has been modified from the original OpenFMRI distribution for use in this exercise.
 > 2. Working with the BIDS material provided (above) and information from the data publication in Nature Scientific Data [](https://www.nature.com/articles/sdata2016110) and re-work the base dataset to conform to BIDS.
 > 3. As you work through this exercise - you can use the [BIDS validator](http://incf.github.io/bids-validator/) to check your progress (must use Google Chrome or Firefox).
 >
