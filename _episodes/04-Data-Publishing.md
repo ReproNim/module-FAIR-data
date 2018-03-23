@@ -10,7 +10,7 @@ objectives:
 - "To learn about resources that can be used to assist in the process of data stewardship and publication"
 keypoints:
 - There exist well defined recommendations for publishing data.
-- There are prctical guidelines and tools to assist in the publication of data.
+- There are practical guidelines and tools to assist in the publication of data.
 
 ---
 
