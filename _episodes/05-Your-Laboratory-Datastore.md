@@ -9,7 +9,7 @@ objectives:
 - "Learn about different databasing options if a custom solution is desired"
 keypoints:
 - There are a number of tools, developed by the research community and also by companies, to assist in stewardship of laboratory data.
-- There are a number of options for developiong your own custom database solution.
+- There are a number of options for developing your own custom database solution.
 
 ---
 
@@ -47,7 +47,7 @@ When managing data in your own laboratory, there are a number of options availab
 >
 > **Overview**: Flywheel is a data management platform designed to ease the IT burden of the researcher by creating a collaborative environment for reproducible, computational science. Data can be uploaded directly from devices or can be manually uploaded into Flywheel. Once loaded, users can organize and search through data.
 >
-> **Documentation**: Documentation for FLyWheel can be found on their documentation page (https://docs.flywheel.io)
+> **Documentation**: Documentation for FlyWheel can be found on their documentation page (https://docs.flywheel.io)
 >
 {: .callout}
 
@@ -86,7 +86,7 @@ While it is recommended that one try and utilize (and potentially contribute to)
 >
 >   - [MongoDB University](https://university.mongodb.com)
 >
-> **Abstract**: MongoDB provides a colletion of free lessons covering all aspects of the MongoDB platform.
+> **Abstract**: MongoDB provides a collection of free lessons covering all aspects of the MongoDB platform.
 >
 > ##### Neo4J:
 >
