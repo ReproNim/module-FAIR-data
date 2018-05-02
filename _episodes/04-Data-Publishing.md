@@ -20,21 +20,19 @@ This lesson provides an overview of best practices in data publishing.  Note tha
 
 #### History of open mandates and guidelines
 
-Prior to computers and the internet, pubishing data routinely was really not possible beyond what we could publish in articles or books.  Consequently, a culture grew up around scholarly publishing where data were considered disposable after some specified regulatory period. Rather it was the hypotheses proposed, the experimental design, the analysis and the insights gained from collected data that were valued and preserved through our system of journals and books.
+Prior to computers and the internet, pubishing data routinely was really not possible beyond what we could publish in articles or books.  Rather it was the hypotheses proposed, the experimental design, the analysis and the insights gained from collected data that were valued and preserved through our system of journals and books. Eventually, a culture grew up around scientific publishing where data were considered disposable after some specified regulatory period or a personal asset to be maintained and exploited for personal use. 
 
-Almost all major funding agencies in the US and abroad are developing policies around open sharing of research data and other research products. These policies have been put into place to promote the integrity of scientific research through greater transparency in light of recent concerns about scientific reproducibility across several fields. These policies are also driven by the promises of new insights to be gained from increased human- and machine-based access to research outputs.
+As science continues to move online, almost all major funding agencies in the US and abroad are developing policies around open sharing of research data and other research products like code. These policies have been put into place to promote the integrity of scientific research through greater transparency in light of recent concerns about scientific reproducibility. These policies are also driven by the promises of new insights to be gained from increased human- and machine-based access to research outputs. The above material was adapted from [Martone et al. (2018)](https://www.ncbi.nlm.nih.gov/pubmed/29481105).
 
 Within Neuroimaging there exist a set of recommendations for best practices in data analysis and sharing. To o advance open science in neuroimaging the Organization for Human Brain Mapping's Committee on Best Practice in Data Analysis and Sharing (COBIDAS) has released a number of recommendations. (doi: https://doi.org/10.1101/054262). These guidelines for various aspects of a study are provided via tabular listings of items that will help plan, execute, report and finally share research in support of reproducible neuroimaging.
 
 #### Data sharing versus data publishing
 
-Towards these ends, we are seeing more and more calls for domains not just to establish a basic culture of human-centric sharing, i.e., “upon request”, but to move towards a more e-Science vision, where researchers conduct their research digitally and where data standards and programmatic interfaces make it easy for machines to access and ingest large amounts of data.  To achieve this goal requires that the products of research, including the data, be easily coupled to computational resources that can operate on them at scale, and that the provenance of these research products can be tracked as they transition between uses. It requires the ability to find, access and reuse digital artifacts using computational interfaces (API’s) with minimal restrictions.
+We are seeing more and more calls for domains not just to establish a culture of human-centric sharing, i.e., “data available upon request”, but to move towards a more e-Science vision, where researchers conduct their research digitally and where data standards and programmatic interfaces make it easy for machines to access and ingest large amounts of data.  To achieve this goal requires that the products of research, including the data, be [FAIR](http://www.reproducibleimaging.org/module-FAIR-data/01-Web-of-Data/) not just by humans but by machines.  We have already covered the [FAIR principles]((http://www.reproducibleimaging.org/module-FAIR-data/01-Web-of-Data/)) in another module.  As a review, FAIR stands for Findable, Accessible, Interoperable and Re-usable. FAIR requires that enough metadata be associated with a data set so that it can be interpreted and reused appropriately, but also that data can be easily coupled to computational resources that can operate on them at scale, the provenance of these research products can be tracked as they transition between uses and the ability to find, access and reuse digital artifacts using computational interfaces (API’s) with minimal restrictions.
 
-In other words, to take advantage of data, time, attention and resources must be devoted to publishing data and code, just as we spend time and energy publishing enduring narrative works to be understood and used by third parties, now and in the future.
+In other words, to take advantage of data, time, attention and resources must be devoted to **publishing** data and code, just as we spend time and energy publishing enduring narrative works to be understood and used by third parties, now and in the future.
 
 #### Best Practices for publishing data
-
-We have already covered the FAIR principles in another module.  As a review, FAIR stands for Findable, Accessible, Interoperable and Re-usable.
 
 We are still in the early days of publishing data, and the FAIR principles have not yet been interpreted completely within any domain [Mons et al., 2017](http://content.iospress.com/articles/information-services-and-use/isu824#ref007).  Part of the remit of ReproNIM is to establish a viable set of FAIR data practices for neuroimaging.  But some best practices and practical guidelines have already become clear:
 
@@ -96,6 +94,8 @@ A formal citation system assigns credit for the re-use of data, but also establi
 >
 > Additional materials:
 >   -  [Honor, L. B., Haselgrove, C., Frazier, J. A., & Kennedy, D. N. (2016). Data Citation in Neuroimaging: Proposed Best Practices for Data Identification and Attribution. Frontiers in Neuroinformatics, 10, 34. doi:10.3389/fninf.2016.00034](http://journal.frontiersin.org/article/10.3389/fninf.2016.00034/full)
+>
+>   - [Martone, M. E., Garcia-Castro, A. and VandenBos, G. R. Data sharing in psychology. Am Psychol. 2018 Feb-Mar;73(2):111-125. doi: 10.1037/amp0000242](https://www.ncbi.nlm.nih.gov/pubmed/29481105)
 >
 >   - [White EP, Baldridge E, Brym ZT, Locey KJ, McGlinn DJ, Supp SR. (2013) Nine simple ways to make it easier to (re)use your data. PeerJ PrePrints 1:e7v2 https://doi.org/10.7287/peerj.preprints.7v2](https://doi.org/10.7287/peerj.preprints.7v2)
 >   - [Description](http://URL)
