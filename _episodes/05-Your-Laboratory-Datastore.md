@@ -9,7 +9,7 @@ objectives:
 - "Learn about different databasing options if a custom solution is desired"
 keypoints:
 - There are a number of tools, developed by the research community and also by companies, to assist in stewardship of laboratory data.
-- There are a number of options for developiong your own custom database solution.
+- There are a number of options for developing your own custom database solution.
 
 ---
 
@@ -33,17 +33,16 @@ When managing data in your own laboratory, there are a number of options availab
 > **Documentation**: Full documentation for XNAT can be found on their Wiki page (https://wiki.xnat.org/documentation)
 >
 > ##### LORIS:
->
->  - [LORIS] (http://www.loris.ca)
->  - [LORIS GitHub] (https://github.com/aces/Loris)
+
+>  - [LORIS](http://www.loris.ca)
+>  - [LORIS Github](https://github.com/aces/Loris)
 >
 > **Overview**: The Longitudinal Online Research and Imaging System is a web-based data and project management software for neuroimaging research studies. It is an OPEN SOURCE framework for storing and processing behavioural, clinical, neuroimaging and genetic data. LORIS also makes it easy to manage large datasets acquired over time in a longitudinal study, or at different locations in a large multi-site study.
 >
 > **Documentation**: Documentation for LORIS can be found on their GitHub Wiki page (https://github.com/aces/Loris/wiki/Setup)
 >
 > ##### FlyWheel (Commercial):
->
->  - [FlyWheel] (https://flywheel.io)
+>  - [FlyWheel](https://flywheel.io)
 >
 > **Overview**: Flywheel is a data management platform designed to ease the IT burden of the researcher by creating a collaborative environment for reproducible, computational science. Data can be uploaded directly from devices or can be manually uploaded into Flywheel. Once loaded, users can organize and search through data.
 >
@@ -78,15 +77,15 @@ While it is recommended that one try and utilize (and potentially contribute to)
 > #### Lessons for Specific Database Platforms
 > ##### MariaDB:
 >
->   - [Learn MariaDB] (https://mariadb.org/learn/)
+>   - [Learn MariaDB](https://mariadb.org/learn/)
 >
-> ** Abstract**: MariaDB, the successor to MySQL, is an open-source relational database.  They provide a collection of online learning resources.
+> **Abstract**: MariaDB, the successor to MySQL, is an open-source relational database.  They provide a collection of online learning resources.
 >
 > ##### MongoDB:
 >
 >   - [MongoDB University](https://university.mongodb.com)
 >
-> **Abstract**: MongoDB provides a colletion of free lessons covering all aspects of the MongoDB platform.
+> **Abstract**: MongoDB provides a collection of free lessons covering all aspects of the MongoDB platform.
 >
 > ##### Neo4J:
 >

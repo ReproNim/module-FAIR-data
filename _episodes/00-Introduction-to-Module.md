@@ -4,33 +4,30 @@ teaching: A FAIR bit of time.
 exercises: Specific exercises will be available via specific lessons.
 questions:
 - "Why is FAIR important?"
-- "Who is this modulde for?"
-- "How can I get some help if I get stuck on solving for an exercise or a question?"
+- "Who is this module for?"
+- "How can I get some help if I get stuck solving an exercise or answering a question?"
 - "When and where are the future ReproNim training workshops?"
-
-
 objectives:
 - "This module should provide you with the ability to work with your data in a FAIR manner"
 - "Provide researchers with the proper information on FAIR data so that they can be submitted to the specified workflows and executions environments in a reproducible fashion"
-
 keypoints:
 - "There are a number of practical guidelines and best practices for ensuring data supports reproducible research"
-- "This module is in line with our overall goal of making science (including scientific training) more open by ensuring that data is made FAIR (Findabile, Accessible, Interoperable, and Reusable)."
+- "This module is in line with our overall goal of making science (including scientific training) more open by ensuring that data is made FAIR (Findable, Accessible, Interoperable, and Reusable)."
 
 ---
 A key foundation needed to support reproducible research is the proper handling of research outputs.  There are a number of best practices and tools available to researchers to ensure that their data is sufficiently FAIR (Finable, Accessible, Interoperable, and Reusable).
 
 ### What is a ReproNim module?
 
-A ReproNim module is a set of steps or "lessons", in which we have gathered material on the web to guide you through the acquisition of a concept or tool or technique. You will take this journey and for each lesson, we try to then ask you a few questions or do some exercise so that you will have an idea of how much you feel comfortable with the material to be acquired.
+A ReproNim module is a set of steps or "lessons", in which we have gathered material on the web to guide you through the acquisition of a concept or tool or technique. You will take this journey and for each lesson, we try to then ask you a few questions or do some exercise so that you will have an idea of how comfortable you feel with the material to be acquired.
 
 ### Who is this module for?
 
-The module is for you, if you are a biomedical researcher or an informatics researcher or student, is working with neuroimaging (or not) and you want to know about reproducibility and data. To ensure data supports reproducible research,  the FAIR principles were issued through [FORCE11](http://force11.org): the Future of Research Communications and e-Scholarship. The FAIR principles put forth characteristics that contemporary data resources, tools, vocabularies and infrastructures should exhibit to ensure understandability, assist discovery and reuse by third-parties. [Wilkinson et al.,2016](https://www.nature.com/articles/sdata201618).  FAIR stands for:  Findable, Accessible, Interoperable and Re-usable.
+The module is for you if you are a biomedical researcher, an informatics researcher, or student, and you are working with neuroimaging (or not) and you want to know about reproducibility and data. To ensure data supports reproducible research, the FAIR principles were issued through [FORCE11](http://force11.org): the Future of Research Communications and e-Scholarship. The FAIR principles put forth characteristics that contemporary data resources, tools, vocabularies and infrastructures should exhibit to ensure understandability, assist discovery and reuse by third-parties. [Wilkinson et al.,2016](https://www.nature.com/articles/sdata201618).  FAIR stands for:  Findable, Accessible, Interoperable and Re-usable.
 
 ### What will you learn
 
-You will learn how to properly work with data to ensure that they are FAIR. This module will also provide information on technologies an platforms that can be utilized within your research.
+You will learn how to properly work with data to ensure that they are FAIR. This module will also provide information on technologies and platforms that can be utilized within your research.
 
 ### How much time this should take me?
 
