@@ -10,11 +10,11 @@
      </questiontext>
 
    <answer fraction="100">
-      <text>Yes</text>
+      <text>true</text>
       <feedback><text>Sorry. 26978244 is unique within PubMed but is not globally unique.  </text></feedback>
    </answer>
    <answer fraction="0">
-      <text>No</text>
+      <text>false</text>
       <feedback><text>Correct!</text></feedback>
    </answer>
 </question>
@@ -78,15 +78,15 @@
          <text>Factual</text>
         <feedback><text>F in FAIR stands for findable</text></feedback>
      </answer>
-     <answer fraction="33">
+     <answer fraction="33.33333">
          <text>Accessible</text>
         <feedback><text>Correct!</text></feedback>
      </answer>
-     <answer fraction="33">
+     <answer fraction="33.33333">
          <text>Interoperable</text>
         <feedback><text>Correct!</text></feedback>
      </answer>
-     <answer fraction="34">
+     <answer fraction="33.33333">
          <text>Reusable</text>
         <feedback><text>Correct!</text></feedback>
      </answer>
