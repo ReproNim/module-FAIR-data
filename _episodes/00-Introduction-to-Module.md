@@ -39,8 +39,7 @@ That really depends on your familiarity with concepts covered in the episodes an
 2. [Lesson 2.]({{site.root}}/03-Ethics) Introduction to ethics surrounding privacy, data sharing, and algorithmic decision-making
 3. [Lesson 3.]({{site.root}}/04-Data-Publishing) Overview of best practices in data publishing
 4. [Lesson 4.]({{site.root}}/05-Your-Laboratory-Datastore) Provides information on a number of research data management platforms
-5. [Lesson 5.]({{site.root}}/06-Semantic-Data-Representations) How to setup a testing framework to revalidate analyses as data and
-software change
+5. [Lesson 5.]({{site.root}}/06-Semantic-Data-Representations) Semantic Data Representations
 
 ### Do I need to code ?  What language ?
 

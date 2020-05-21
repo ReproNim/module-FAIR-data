@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<question type="truefalse">
+  <name>
+    <text>Persistent Identifiers</text>
+  </name>
+     <questiontext format="html">
+       <text>Is 26978244 a globally unique identifier for the PubMed article on the FAIR principles?</text>
+     </questiontext>
+
+   <answer fraction="0">
+      <text>Yes</text>
+      <feedback><text>Sorry. 26978244 is unique within PubMed but is not globally unique.  </text></feedback>
+   </answer>
+   <answer fraction="100">
+      <text>No</text>
+      <feedback><text>Correct!</text></feedback>
+   </answer>
+</question>
+
+<question type="shortanswer">
+  <name>
+    <text>Linked Data</text>
+  </name>
+     <questiontext format="html">
+       <text>What should be used to name (identify) things as per the linked data principles?</text>
+     </questiontext>
+
+ <answer fraction="100">
+     <text>Uniform Resource Identifier</text>
+     <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="100">
+     <text>URI</text>
+     <feedback><text>Correct!</text></feedback>
+ </answer>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>RDF triples</text>
+  </name>
+     <questiontext format="html">
+       <text>An RDF triple comprises a subject, predicate and object.  Which of the following would be a proper predicate?</text>
+     </questiontext>
+
+ <answer fraction="50">
+     <text>is a</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>name</text>
+    <feedback><text>A name is a potential subject and/or object</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>large</text>
+    <feedback><text>A size can be a potential subject and/or object</text></feedback>
+ </answer>
+ <answer fraction="50">
+     <text>authored</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>false</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>FAIR Data</text>
+  </name>
+     <questiontext format="html">
+       <text>What are some of the FAIR principles?</text>
+     </questiontext>
+
+     <answer fraction="0">
+         <text>Factual</text>
+        <feedback><text>F in FAIR stands for findable</text></feedback>
+     </answer>
+     <answer fraction="33">
+         <text>Accessible</text>
+        <feedback><text>Correct!</text></feedback>
+     </answer>
+     <answer fraction="33">
+         <text>Interoperable</text>
+        <feedback><text>Correct!</text></feedback>
+     </answer>
+     <answer fraction="34">
+         <text>Reusable</text>
+        <feedback><text>Correct!</text></feedback>
+     </answer>
+     <shuffleanswers>1</shuffleanswers>
+     <single>false</single>
+     <answernumbering>abc</answernumbering>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>Linked Open Data</text>
+  </name>
+     <questiontext format="html">
+       <text>The benefits of using Linked Open Data include</text>
+     </questiontext>
+
+ <answer fraction="0">
+     <text>Requires all data to be stored together</text>
+    <feedback><text>Data does not need to be stored together</text></feedback>
+ </answer>
+ <answer fraction="50">
+     <text>Facilitates data interchange on the web</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="50">
+     <text>Allows for data integration across sources</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>false</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+
+<question type="multichoice">
+  <name>
+    <text>RDF triples</text>
+  </name>
+     <questiontext format="html">
+       <text>The object of the triple for the following statement: Purkinje Cells are located in the Cerebellum</text>
+     </questiontext>
+
+ <answer fraction="0">
+     <text>Purkinje Cell</text>
+    <feedback><text>Purkinje Cell is the subject in the triple</text></feedback>
+ </answer>
+ <answer fraction="100">
+     <text>located in</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>Cerebellum</text>
+    <feedback><text>Cerebellum is the object in the triple</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>true</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+<question type="truefalse">
+  <name>
+    <text>FAIR</text>
+  </name>
+     <questiontext format="html">
+       <text>Are the specifications for FAIR a standard?</text>
+     </questiontext>
+
+   <answer fraction="0">
+      <text>Yes</text>
+      <feedback><text>Sorry. The FAIR principles are not a standard. Each community must develop their own standards that support the principles outlined by FAIR. </text></feedback>
+   </answer>
+   <answer fraction="100">
+      <text>No</text>
+      <feedback><text>Correct!</text></feedback>
+   </answer>
+</question>
+
+<question type="truefalse">
+  <name>
+    <text>FAIR</text>
+  </name>
+     <questiontext format="html">
+       <text>If data are made FAIR they are openly available</text>
+     </questiontext>
+
+   <answer fraction="0">
+      <text>Yes</text>
+      <feedback><text>Sorry. The FAIR principles do not require data to be openly available. </text></feedback>
+   </answer>
+   <answer fraction="100">
+      <text>No</text>
+      <feedback><text>Correct!</text></feedback>
+   </answer>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>BIDS</text>
+  </name>
+     <questiontext format="html">
+       <text>What are the benefits of using BIDS?</text>
+     </questiontext>
+
+ <answer fraction="25">
+     <text>It will be easy for another researcher to work on your data</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="25">
+     <text>There are a growing number of data analysis software packages that can understand data organised according to BIDS</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="25">
+     <text>Databases such as OpenNeuro.org accept datasets organised according to BIDS</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="25">
+     <text>Validation tools can check your dataset integrity</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>false</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+
+<question type="multichoice">
+  <name>
+    <text>BIDS</text>
+  </name>
+     <questiontext format="html">
+       <text>In the BIDS specification a Session can denote</text>
+     </questiontext>
+
+ <answer fraction="50">
+     <text>A logical grouping of neuroimaging and behavioral data consistent across subjects</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="50">
+     <text>A visit in a longitudinal study</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>A continuous uninterrupted block of time during which a brain scanning instrument was acquiring data</text>
+    <feedback><text>Sorry, this is a data acquisition.</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>A set of neuroimaging and behavioral data acquired for a purpose of a particular study</text>
+    <feedback><text>Sorry, this is a dataset.</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>false</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+<question type="truefalse">
+  <name>
+    <text>BIDS</text>
+  </name>
+     <questiontext format="html">
+       <text>Does a BIDS dataset require a dataset description file?</text>
+     </questiontext>
+
+   <answer fraction="100">
+      <text>Yes</text>
+      <feedback><text>Correct!</text></feedback>
+   </answer>
+   <answer fraction="0">
+      <text>No</text>
+      <feedback><text>Sorry, every dataset MUST include this file.</text></feedback>
+   </answer>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>BIDS</text>
+  </name>
+     <questiontext format="html">
+       <text>According to the BIDS specification which of the following would a correct name for a subject's fMRI filename for a task completed during a second visit?</text>
+     </questiontext>
+
+ <answer fraction="0">
+     <text>sub_ses-2_task-1.nifti</text>
+    <feedback><text>Sorry, this doesn't include a subject label</text></feedback>
+ </answer>
+ <answer fraction="100">
+     <text>sub-a0001_ses-2_task-1.nifti</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>sub-a0001_ses-2.nifti</text>
+    <feedback><text>Sorry, this doesn't include a task entity.</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>sub-a0001_task-1.nifti</text>
+    <feedback><text>Sorry, this doesn't include a session entity.</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>true</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>NIDM</text>
+  </name>
+     <questiontext format="html">
+       <text>The Neuroimaging Data Model (NIDM) captures brain data, workflow, and results in a structured format utilizing</text>
+     </questiontext>
+
+ <answer fraction="50">
+     <text>a data model based on provenance</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="50">
+     <text>a data model based on RDF triples</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>a data model based on CSV tabular files</text>
+    <feedback><text>Sorry, NIDM is a semantic web based standard</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>a data model based on workflows</text>
+    <feedback><text>Sorry, NIDM can represent workflows, however, the model is based on the W3C provenance standard</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>false</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>OHBM</text>
+  </name>
+     <questiontext format="html">
+       <text>Best practices for Neuroimaging can be found in which recommendation</text>
+     </questiontext>
+
+ <answer fraction="0">
+     <text>MINDdoc</text>
+    <feedback><text>Sorry!</text></feedback>
+ </answer>
+ <answer fraction="100">
+     <text>COBIDAS</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>BRAINML</text>
+    <feedback><text>Sorry!</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>COGENT</text>
+    <feedback><text>Sorry!</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>true</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+<question type="multichoice">
+  <name>
+    <text>Data Publishing</text>
+  </name>
+     <questiontext format="html">
+       <text>What are some best practices for publishing data</text>
+     </questiontext>
+
+ <answer fraction="33">
+     <text>adequate funds for proper management and curation of the data</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="34">
+     <text>deposited into a reputable repository</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <answer fraction="0">
+     <text>data management at the end of the research lifecycle</text>
+    <feedback><text>Sorry, you should practice proper data management throughout the research lifecycle</text></feedback>
+ </answer>
+ <answer fraction="33">
+     <text>ensure you have the proper permissions to make your data open from your institution</text>
+    <feedback><text>Correct!</text></feedback>
+ </answer>
+ <shuffleanswers>1</shuffleanswers>
+ <single>false</single>
+ <answernumbering>abc</answernumbering>
+</question>
+
+<question type="truefalse">
+  <name>
+    <text>Data Publishing</text>
+  </name>
+     <questiontext format="html">
+       <text>Are there formal guidelines for citing published data</text>
+     </questiontext>
+
+   <answer fraction="100">
+      <text>Yes</text>
+      <feedback><text>Correct!</text></feedback>
+   </answer>
+   <answer fraction="0">
+      <text>No</text>
+      <feedback><text>Sorry, these guidelines are found in the Joint Declaration of Data Citation principles.</text></feedback>
+   </answer>
+</question>
+
+</quiz>
