@@ -10,11 +10,11 @@
      </questiontext>
 
    <answer fraction="0">
-      <text>Yes</text>
+      <text>true</text>
       <feedback><text>Sorry. 26978244 is unique within PubMed but is not globally unique.  </text></feedback>
    </answer>
    <answer fraction="100">
-      <text>No</text>
+      <text>false</text>
       <feedback><text>Correct!</text></feedback>
    </answer>
 </question>
@@ -78,16 +78,16 @@
          <text>Factual</text>
         <feedback><text>F in FAIR stands for findable</text></feedback>
      </answer>
-     <answer fraction="33">
+     <answer fraction="50">
          <text>Accessible</text>
         <feedback><text>Correct!</text></feedback>
      </answer>
-     <answer fraction="33">
+     <answer fraction="50">
          <text>Interoperable</text>
         <feedback><text>Correct!</text></feedback>
      </answer>
-     <answer fraction="34">
-         <text>Reusable</text>
+     <answer fraction="0">
+         <text>Reproducible</text>
         <feedback><text>Correct!</text></feedback>
      </answer>
      <shuffleanswers>1</shuffleanswers>
@@ -155,11 +155,11 @@
      </questiontext>
 
    <answer fraction="0">
-      <text>Yes</text>
+      <text>true</text>
       <feedback><text>Sorry. The FAIR principles are not a standard. Each community must develop their own standards that support the principles outlined by FAIR. </text></feedback>
    </answer>
    <answer fraction="100">
-      <text>No</text>
+      <text>false</text>
       <feedback><text>Correct!</text></feedback>
    </answer>
 </question>
@@ -173,11 +173,11 @@
      </questiontext>
 
    <answer fraction="0">
-      <text>Yes</text>
+      <text>true</text>
       <feedback><text>Sorry. The FAIR principles do not require data to be openly available. </text></feedback>
    </answer>
    <answer fraction="100">
-      <text>No</text>
+      <text>false</text>
       <feedback><text>Correct!</text></feedback>
    </answer>
 </question>
@@ -250,11 +250,11 @@
      </questiontext>
 
    <answer fraction="100">
-      <text>Yes</text>
+      <text>true</text>
       <feedback><text>Correct!</text></feedback>
    </answer>
    <answer fraction="0">
-      <text>No</text>
+      <text>false</text>
       <feedback><text>Sorry, every dataset MUST include this file.</text></feedback>
    </answer>
 </question>
@@ -354,19 +354,19 @@
        <text>What are some best practices for publishing data</text>
      </questiontext>
 
- <answer fraction="33">
+ <answer fraction="50">
      <text>adequate funds for proper management and curation of the data</text>
     <feedback><text>Correct!</text></feedback>
  </answer>
- <answer fraction="34">
-     <text>deposited into a reputable repository</text>
+ <answer fraction="0">
+     <text>use photoshop</text>
     <feedback><text>Correct!</text></feedback>
  </answer>
  <answer fraction="0">
      <text>data management at the end of the research lifecycle</text>
     <feedback><text>Sorry, you should practice proper data management throughout the research lifecycle</text></feedback>
  </answer>
- <answer fraction="33">
+ <answer fraction="50">
      <text>ensure you have the proper permissions to make your data open from your institution</text>
     <feedback><text>Correct!</text></feedback>
  </answer>
@@ -384,11 +384,11 @@
      </questiontext>
 
    <answer fraction="100">
-      <text>Yes</text>
+      <text>true</text>
       <feedback><text>Correct!</text></feedback>
    </answer>
    <answer fraction="0">
-      <text>No</text>
+      <text>false</text>
       <feedback><text>Sorry, these guidelines are found in the Joint Declaration of Data Citation principles.</text></feedback>
    </answer>
 </question>
