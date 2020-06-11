@@ -72,19 +72,19 @@ Here are some things to consider:
 
 #### DataLad
 
-DataLad builds on top of git-annex and extends it with an intuitive command-line interface. It enables users to operate on data using familiar concepts, such as files and directories, while transparently managing data access and authorization with underlying hosting providers.
+[DataLad](https://www.datalad.org/) builds on top of git-annex and extends it with an intuitive command-line interface. It enables users to operate on data using familiar concepts, such as files and directories, while transparently managing data access and authorization with underlying hosting providers.
 
 #### Credit for publishing data
 
-Publishing data should be no different than publishing an article:  the creators should be credited and the authors and data formally cited when it is reused. This view is expressed in the [Joint Declaration of Data Citation principles](https://www.force11.org/group/joint-declaration-data-citation-principles-final), issued and endorsed by organizations around the globe.
+Publishing data should be no different than publishing an article: The creators should be credited and the authors and data formally cited when it is reused. This view is expressed in the [Joint Declaration of Data Citation principles](https://www.force11.org/group/joint-declaration-data-citation-principles-final), issued and endorsed by organizations around the globe.
 
 In recognition of the growing importance of publishing data, publishers are providing specialized journals, e.g., Scientific Data, published by Springer-Nature, or a specialized article type called a data paper, specifically for publishing well curated and described data sets. These papers are published using traditional publishing metadata and article structure, but are not expected to include any analyses or conclusions;  rather the paper is devoted to providing rich metadata and a rigorous description of experimental and data collection mechanisms.  Scientific Data also implements a standard format for structuring metadata, to ensure that the data is FAIR.  These journals usually require that data are deposited in an approved community repository and they provide lists of [recommended repositories](https://www.nature.com/sdata/policies/repositories).
 
-Publishing a data paper is one way to ensure that data can be cited.  But many journals are currently working on implementing more formal systems of data citation, led by community efforts to push for equal status for data in the publishing pipeline (e.g., Joint Declaration of Data Citation Principles; Starr et al., 2015)).  Citations to data sets would look like citations to articles, with a standard set of metadata, and would appear in the reference list. With the ability to list published datasets on a scientific CV, cite them within published articles, and search for them via tools like DataMed, data is finally taking its place as a primary product of scholarship.
+Publishing a data paper is one way to ensure that data can be cited. But many journals are currently working on implementing more formal systems of data citation, led by community efforts to push for equal status for data in the publishing pipeline (e.g., Joint Declaration of Data Citation Principles; Starr et al., 2015)).  Citations to data sets would look like citations to articles, with a standard set of metadata, and would appear in the reference list. With the ability to list published datasets on a scientific CV, cite them within published articles, and search for them via tools like DataMed, data is finally taking its place as a primary product of scholarship.
 
 A formal citation system assigns credit for the re-use of data, but also establishes links to the evidence on which claims are based while providing the means for tracking and therefore measuring impact of data re-use. In our current publishing system, authors adopt a variety of styles for referencing data when they are re-used, from accession numbers, to URL’s, to citing a paper associated with the data set. Some journals set aside a special section on data use which contain lists of data sets and other resources. Unlike references to articles which have a standard format and tools and services to insert them and analyze citations, uncovering and tracking re-use of data typically involves using manual identification, text mining and natural language processing approaches, requiring full text access and considerable time and effort (Read et al., 2015).
 
-[Honor et al. (2016)](http://journal.frontiersin.org/article/10.3389/fninf.2016.00034/full) have published a recommendation for citing neuroimaging data sets:
+[Honor et al. (2016)](http://journal.frontiersin.org/article/10.3389/fninf.2016.00034/full) have published a recommendation for citing neuroimaging data sets.
 
 
 > #### References
@@ -93,11 +93,10 @@ A formal citation system assigns credit for the re-use of data, but also establi
 >   - [FORCE11 Decision trees for making data open, FAIR and citable ](https://www.force11.org/scholarly-commons/practice)
 >
 > Additional materials:
->   -  [Honor, L. B., Haselgrove, C., Frazier, J. A., & Kennedy, D. N. (2016). Data Citation in Neuroimaging: Proposed Best Practices for Data Identification and Attribution. Frontiers in Neuroinformatics, 10, 34. doi:10.3389/fninf.2016.00034](http://journal.frontiersin.org/article/10.3389/fninf.2016.00034/full)
+>   -  [Honor, L. B., Haselgrove, C., Frazier, J. A., & Kennedy, D. N. (2016). Data Citation in Neuroimaging: Proposed Best Practices for Data Identification and Attribution. Frontiers in Neuroinformatics, 10, 34. doi: 10.3389/fninf.2016.00034](http://journal.frontiersin.org/article/10.3389/fninf.2016.00034/full)
 >
 >   - [Martone, M. E., Garcia-Castro, A. and VandenBos, G. R. Data sharing in psychology. Am Psychol. 2018 Feb-Mar;73(2):111-125. doi: 10.1037/amp0000242](https://www.ncbi.nlm.nih.gov/pubmed/29481105)
 >
 >   - [White EP, Baldridge E, Brym ZT, Locey KJ, McGlinn DJ, Supp SR. (2013) Nine simple ways to make it easier to (re)use your data. PeerJ PrePrints 1:e7v2 https://doi.org/10.7287/peerj.preprints.7v2](https://doi.org/10.7287/peerj.preprints.7v2)
->   - [Description](http://URL)
 >
 {: .callout}
