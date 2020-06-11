@@ -25,11 +25,11 @@ A ReproNim module is a set of steps or "lessons", in which we have gathered mate
 
 The module is for you if you are a biomedical researcher, an informatics researcher, or student, and you are working with neuroimaging (or not) and you want to know about reproducibility and data. To ensure data supports reproducible research, the FAIR principles were issued through [FORCE11](http://force11.org): the Future of Research Communications and e-Scholarship. The FAIR principles put forth characteristics that contemporary data resources, tools, vocabularies and infrastructures should exhibit to ensure understandability, assist discovery and reuse by third-parties. [Wilkinson et al.,2016](https://www.nature.com/articles/sdata201618).  FAIR stands for:  Findable, Accessible, Interoperable and Re-usable.
 
-### What will you learn
+### What will I learn?
 
 You will learn how to properly work with data to ensure that they are FAIR. This module will also provide information on technologies and platforms that can be utilized within your research.
 
-### How much time this should take me?
+### How much time should this take me?
 
 That really depends on your familiarity with concepts covered in the episodes and your capacity to write some code. If you have no familiarity at all, this may take you a longer time, for instance 2 full weeks. If you have good familiarity, some of the information will be already partially known and it may take you a few days to go in detail through this material.
 
