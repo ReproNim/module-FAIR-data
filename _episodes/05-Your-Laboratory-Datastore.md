@@ -1,6 +1,6 @@
 ---
-title: "Lesson 4: Your Labortory Datastore"
-teaching: Self Paced
+title: "Lesson 4: Your Laboratory Datastore"
+teaching: Self-paced
 exercises: 0
 questions:
 - "What resources are available for me to be a good steward of my laboratory's data"
@@ -15,16 +15,15 @@ keypoints:
 
 ### Introduction
 
-This lesson provides information and training on a number of research data management platforms.  In addition, this lesson provides a number of courses covering an introduction to databases as well as specific course offerings for some popular database platforms.
+This lesson provides information and training on a number of research data management platforms. In addition, this lesson provides a number of courses covering an introduction to databases as well as specific course offerings for some popular database platforms.
 
 ### Introduction
 
-When managing data in your own laboratory, there are a number of options available to you.  First, there are a number of products (both academic and commercial) that allow you to manage your neuroimaging and associated data within their platform.
+When managing data in your own laboratory, there are a number of options available to you. First, there are a number of products (both academic and commercial) that allow you to manage your neuroimaging and associated data within their platform.
 
 > ## Selected External Material
 > #### Neuroimaging Data Platforms
 > ##### XNAT:
->
 >   - [XNAT](https://www.xnat.org)
 >   - [XNAT GitHub](https://github.com/NrgXnat)
 >
@@ -33,7 +32,6 @@ When managing data in your own laboratory, there are a number of options availab
 > **Documentation**: Full documentation for XNAT can be found on their Wiki page (https://wiki.xnat.org/documentation)
 >
 > ##### LORIS:
-
 >  - [LORIS](http://www.loris.ca)
 >  - [LORIS Github](https://github.com/aces/Loris)
 >
@@ -52,7 +50,7 @@ When managing data in your own laboratory, there are a number of options availab
 
 #### Build your Own...
 
-While it is recommended that one try and utilize (and potentially contribute to) an existing platform there may still be a need to develop your own database system.  Databases and database technology are well represented in current online course offerings.  Therefor, we provide below a set of recommendations for free online courses that you can utilize.
+While it is recommended that one try and utilize (and potentially contribute to) an existing platform there may still be a need to develop your own database system. Databases and database technology are well represented in current online course offerings. Therefore, we provide below a set of recommendations for free online courses that you can utilize.
 
 > ## Selected External Material
 > #### Introduction to Databases

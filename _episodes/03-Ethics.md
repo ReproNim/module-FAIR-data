@@ -1,6 +1,6 @@
 ---
 title: "Lesson 2: Ethics"
-teaching: Self Paced
+teaching: Self-paced
 
 objectives:
 - "Introduction to ethics surrounding privacy, data publication, data sharing, and algorithmic decision-making"
@@ -14,7 +14,7 @@ keypoints:
 
 ### Introduction
 
-This  lesson links to externally available information to introduce the student to ethics surrounding privacy, data sharing, and algorithmic decision-making.
+This lesson links to externally available information to introduce the student to ethics surrounding privacy, data sharing, and algorithmic decision-making.
 
 > ## Selected External Lesson Material
 > ### Online courses:
@@ -27,7 +27,7 @@ This  lesson links to externally available information to introduce the student 
 >
 >   - [What is data ethics?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5124072/)
 >
-> Floridi, L., & Taddeo, M. (2016). What is data ethics? Philosophical Transactions. Series A, Mathematical, Physical, and Engineering Sciences, 374(2083), 20160360. http://doi.org/10.1098/rsta.2016.0360
+> Floridi, L., & Taddeo, M. (2016). What is data ethics? Philosophical Transactions. Series A, Mathematical, Physical, and Engineering Sciences, 374(2083), 20160360. [dx.doi.org/10.1098/rsta.2016.0360](http://doi.org/10.1098/rsta.2016.0360)
 >
 > **Abstract**: This theme issue has the founding ambition of landscaping data ethics as a new branch of ethics that studies and evaluates moral problems related to data (including generation, recording, curation, processing, dissemination, sharing and use), algorithms (including artificial intelligence, artificial agents, machine learning and robots) and corresponding practices (including responsible innovation, programming, hacking and professional codes), in order to formulate and support morally good solutions (e.g. right conducts or right values). Data ethics builds on the foundation provided by computer and information ethics but, at the same time, it refines the approach endorsed so far in this research field, by shifting the level of abstraction of ethical enquiries, from being information-centric to being data-centric. This shift brings into focus the different moral dimensions of all kinds of data, even data that never translate directly into information but can be used to support actions or generate behaviours, for example. It highlights the need for ethical analyses to concentrate on the content and nature of computational operations-the interactions among hardware, software and data-rather than on the variety of digital technologies that enable them. And it emphasizes the complexity of the ethical challenges posed by data science. Because of such complexity, data ethics should be developed from the start as a macroethics, that is, as an overall framework that avoids narrow, ad hoc approaches and addresses the ethical impact and implications of data science and its applications within a consistent, holistic and inclusive framework. Only as a macroethics will data ethics provide solutions that can maximize the value of data science for our societies, for all of us and for our environments.This article is part of the themed issue 'The ethical impact of data science'.
 >
