@@ -22,7 +22,7 @@ keypoints:
 
 This lesson provides an overview of strategies for making research outputs available through the web, with an emphasis on data. It introduces concepts such persistent identifiers, linked data, the semantic web and the FAIR principles. It is designed for those with little to no familiarity with these concepts. More technical discussions can be found in the reference materials.
 
-> #### Lesson Episodes
+> ## Lesson Episodes
 > - Overview of the current ecosystem
 > - Research objects and identifier systems
 > - Short history of open & linked data technologies
@@ -30,7 +30,7 @@ This lesson provides an overview of strategies for making research outputs avail
 > - Towards the FAIR principles
 {: .callout}
 
-> #### References
+> ## References
 > Additional materials:
 >
 >   - [Linked Data Guides and Tutorials](http://linkeddata.org/guides-and-tutorials)
@@ -135,8 +135,13 @@ Of course, this type of integration is only possible if developers of databases 
 
 > ## Selected External Lesson Material
 > 1. Open Data Support's (a project of DG CONNECT of the European Commission) [Linked Open Data Principles,Technologies and Examples](https://www.slideshare.net/OpenDataSupport/linked-open-data-principles-technologies-and-examples)
-> 2. The University of Southampton's Future Learn online course : [Introduction to Linked Data and the Semantic Web](https://www.futurelearn.com/courses/linked-data)
-> **Abstract**: Linked Data, a term coined by Sir Tim Berners-Lee, is a way of publishing data online so it can be easily interlinked and managed using semantic queries. This helps the exposure and interlinking of datasets so that data can be exchanged, reused and integrated. On this course you will learn the basics of Linked Data and the Semantic Web - exploring how this new Web of Data isn’t about creating a big collection of standalone datasets, but is instead about using a common format to ensure data is interrelated. (material from course website)
+> 2. Data Europa:
+>   * [The usefulness of data - the starts of linked open data](https://data.europa.eu/en/academy/usefulness-data-stars-linked-open-data)  
+>     **Abstract:** This course focuses on understanding the concept of the 5 stars of linked open data. You will learn about the web of linked open data, understand how the 5 Stars of open linked data can help you start browsing the web of data, and understand and being able to recognise the first 3 stars.
+>   * [Data citation: a guide to best practice [data citation, citation, interoperability]](https://data.europa.eu/en/academy/data-citation-guide-best-practice-data-citation-citation-interoperability)  
+>     **Abstract:** Everyday millions of people use data. They search, publish, reuse, analyse! But very often, a major difficulty for the users is finding the right data. And how to help them? It is simple: Cite the data! This training is focused on introducing the publication “Data citation: a guide to best practice”. It is a practical guide that includes recommendations and best practices on how to cite data. It is divided in 3 parts: 1) issues in data citation, general recommendations; 2) recommendations on specific formats and other elements for data citation; 3) other information (e.g. specific differences between recommendations). At the end you will find many useful annexes with checklists, diagrams and examples.
+> 4. [Linked Data Engineering](https://open.hpi.de/courses/semanticweb2016), provided by openHPI (the educational Internet platform of the German Hasso Plattner Institute)
+> 5. Coursera's [Web of Data](https://www.coursera.org/learn/web-data?aid=true)
 {: .callout}
 
 ### Towards the FAIR principles
